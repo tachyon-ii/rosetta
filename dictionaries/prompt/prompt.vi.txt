@@ -1,0 +1,211 @@
+# Vietnamese Translation Continuation Task
+
+You are continuing translation work on `dictionary/en_vi.txt` — an English—Vietnamese dictionary file.
+
+Vietnamese does **not** have grammatical gender for nouns. This dictionary uses simplified POS tags without gender markers.
+
+---
+
+## Your Task
+
+1. **Find the first untranslated word** in the file
+   (a line containing only `word` with no tab or translation)
+2. **Translate in batches of 100 words** at a time
+3. **Continue translating without stopping** until context limits are reached
+4. **Format strictly** using the dictionary format defined below
+
+---
+
+## Dictionary Format
+
+**File type:** TSV (Tab-Separated Values)
+**Encoding:** UTF-8
+
+**Structure:**
+
+```
+word<TAB>pos.translation@pos.translation
+```
+
+---
+
+## Normalization Rules
+
+* All headwords lowercase
+* Hyphens removed (`any-thing → anything`)
+* No commas used to separate meanings
+* All distinct realizations separated with `@`
+* No articles embedded in noun translations
+* Vietnamese tone marks must be preserved
+* First occurrence of a headword wins
+
+---
+
+## Core Principle
+
+> Vietnamese does not have grammatical gender.
+> Translations use simple POS tags without gender markers.
+
+No sentence-level rewrite is performed.
+
+---
+
+## Part-of-Speech Tags
+
+| Dict tag | UDPipe | Meaning                                |
+| -------- | ------ | -------------------------------------- |
+| n.       | NOUN   | noun                                   |
+| v.       | VERB   | verb (general)                         |
+| vt.      | VERB   | transitive verb                        |
+| vi.      | VERB   | intransitive verb                      |
+| a.       | ADJ    | adjective                              |
+| ad.      | ADV    | adverb                                 |
+| art.     | DET    | article/determiner                     |
+| pron.    | PRON   | pronoun                                |
+| prep.    | ADP    | preposition                            |
+| conj.    | CCONJ  | conjunction                            |
+| int.     | INTJ   | interjection                           |
+
+---
+
+## Meaning & POS Separation Rules (Authoritative)
+
+* `@` separates **all distinct realizations**
+  * different POS
+  * different meanings (even within same POS)
+* `,` is **not used**
+
+### Examples
+
+Single realization:
+
+```
+water n.nước
+```
+
+Multiple meanings, same POS:
+
+```
+business  n.kinh doanh@n.công ty
+```
+
+Different POS:
+
+```
+control n.sự kiểm soát@v.kiểm soát
+```
+
+Multiple meanings, same POS:
+
+```
+bank  n.ngân hàng@n.bờ
+```
+
+---
+
+## Vietnamese Language Notes
+
+* **No grammatical gender** - nouns, pronouns, and adjectives do not inflect for gender
+* **No articles** - Vietnamese does not use articles like "the" or "a/an"
+* **Classifiers** - Do not include classifiers (cái, con, etc.) in noun translations
+* **Tone marks** - Must be properly preserved (à, á, ả, ã, ạ, etc.)
+* **Compound words** - Use standard spacing (e.g., "kinh doanh" not "kinhdoanh")
+
+---
+
+## Common Words
+
+### Articles (Vietnamese has none)
+
+```
+the art.—
+a art.—
+an  art.—
+```
+
+### Pronouns
+
+```
+it  pron.nó@pron.nó
+they  pron.họ@pron.chúng
+he  pron.anh ấy@pron.ông ấy
+she pron.cô ấy@pron.bà ấy
+I pron.tôi@pron.tao
+you pron.bạn@pron.mày
+we  pron.chúng tôi@pron.chúng ta
+```
+
+### Basic Words
+
+```
+of  prep.của
+and conj.và
+to  prep.đến@prep.cho
+in  prep.trong@prep.ở
+```
+
+### Adjectives (no gender agreement)
+
+```
+new a.mới
+good  a.tốt@a.hay
+big a.lớn
+small a.nhỏ
+```
+
+---
+
+## Examples of Correct Vietnamese Entries
+
+```
+the art.—
+of  prep.của
+and conj.và
+a art.—
+water n.nước
+book  n.sách
+house n.nhà
+business  n.kinh doanh@n.công ty
+light n.ánh sáng@n.lửa
+run v.chạy@n.cuộc chạy
+go  v.đi
+come  v.đến
+good  a.tốt@a.hay
+bad a.xấu
+```
+
+---
+
+## Workflow
+
+1. Locate the **first untranslated word**
+2. Translate the next **100 words**
+3. Edit the file **in place**
+4. Repeat continuously
+
+---
+
+## CRITICAL RULES
+
+* ✗ Do NOT ask for permission to continue
+* ✗ Do NOT summarize progress
+* ✗ Do NOT append entries
+* ✗ Do NOT use commas to separate meanings
+* ✗ Do NOT add gender markers (Vietnamese has none)
+* ✗ Do NOT include classifiers in noun translations
+* ✓ ONLY stop when output is truncated by context limits
+
+---
+
+## Goal
+
+Translate **as many entries as possible** with:
+
+* correct POS
+* natural Vietnamese forms
+* proper tone marks
+* unambiguous realizations
+
+---
+
+**Begin by identifying the first untranslated word, then translate the next 100 entries.**

@@ -1,0 +1,16 @@
+# ROSETTA Stream Parser Dependencies
+# Python 3.7+
+
+# Core markdown parsing
+markdown-it-py>=3.0.0
+
+# Optional: Enhanced markdown features
+mdit-py-plugins>=0.4.0  # Tables, footnotes, etc.
+
+# Testing
+pytest>=7.0.0
+pytest-cov>=4.0.0
+
+# Code quality (optional)
+# black>=23.0.0
+# flake8>=6.0.0

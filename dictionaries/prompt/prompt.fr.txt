@@ -1,0 +1,211 @@
+# French Translation Continuation Task
+
+You are continuing translation work on `dictionary/en_fr.txt` — an English–French dictionary file.
+
+This dictionary **explicitly encodes grammatical gender for nouns** and **gender-bound realizations** for agreement carriers (articles, pronouns, possessives, adjectives).
+
+---
+
+## Your Task
+
+1. **Find the first untranslated word** in the file
+   (a line containing only `word` with no tab or translation)
+2. **Translate in batches of 100 words** at a time
+3. **Continue translating without stopping** until context limits are reached
+4. **Format strictly** using the dictionary format defined below
+
+---
+
+## Dictionary Format
+
+**File type:** TSV (Tab-Separated Values)
+**Encoding:** UTF-8
+
+**Structure:**
+
+```
+word<TAB>pos.translation@pos.translation
+```
+
+---
+
+## Normalization Rules
+
+* All headwords lowercase
+* Hyphens removed (`any-thing → anything`)
+* No commas used to separate meanings
+* All distinct realizations separated with `@`
+* No articles embedded in noun translations
+* Accents must be preserved
+* First occurrence of a headword wins
+
+---
+
+## Core Principle
+
+> **Gender is a property of nouns.**
+> Articles, pronouns, possessives, and adjectives expose **gender-bound realizations** to allow local binding.
+
+No sentence-level rewrite is performed.
+
+---
+
+## Part-of-Speech Tags
+
+| Dict tag | UDPipe | Meaning                                |
+| -------- | ------ | -------------------------------------- |
+| n.       | NOUN   | noun (gender unknown / not applicable) |
+| n+f.     | NOUN   | feminine noun                          |
+| n+m.     | NOUN   | masculine noun                         |
+| n+n.     | NOUN   | neuter noun                            |
+| v.       | VERB   | verb (general)                         |
+| vt.      | VERB   | transitive verb                        |
+| vi.      | VERB   | intransitive verb                      |
+| a.       | ADJ    | adjective                              |
+| ad.      | ADV    | adverb                                 |
+| art.     | DET    | article (ungendered selector)          |
+| art+f.   | DET    | article, feminine realization          |
+| art+m.   | DET    | article, masculine realization         |
+| art+n.   | DET    | article, neuter realization            |
+| pron.    | PRON   | pronoun (ungendered)                   |
+| pron+f.  | PRON   | feminine pronoun                       |
+| pron+m.  | PRON   | masculine pronoun                      |
+| pron+n.  | PRON   | neuter pronoun                         |
+| prep.    | ADP    | preposition                            |
+| conj.    | CCONJ  | conjunction                            |
+| int.     | INTJ   | interjection                           |
+
+---
+
+## Meaning & POS Separation Rules (Authoritative)
+
+* `@` separates **all distinct realizations**
+
+  * different POS
+  * different genders
+  * different meanings (even within same POS)
+* `,` is **not used**
+
+### Examples
+
+Single realization:
+
+```
+water	n+f.eau
+```
+
+Same POS, different gender:
+
+```
+business	n+m.affaire@n+f.entreprise
+```
+
+Different POS:
+
+```
+control	n+m.contrôle@v.contrôler
+```
+
+Same POS, same gender, different meanings:
+
+```
+bank	n+f.banque@n+f.rive
+```
+
+---
+
+## Gender Rules (French)
+
+* **All French nouns MUST include gender** (`n+f.` or `n+m.`)
+* Use plain `n.` only if gender is genuinely unknown or not applicable
+* Gender is **never inferred** for verbs or prepositions
+
+---
+
+## Agreement Carriers (Required)
+
+### Articles
+
+```
+the	art+m.le@art+f.la
+a	art+m.un@art+f.une
+an	art+m.un@art+f.une
+```
+
+### Pronouns
+
+```
+it	pron+m.il@pron+f.elle
+they	pron+m.ils@pron+f.elles
+he	pron+m.il
+she	pron+f.elle
+```
+
+### Possessives
+
+```
+my	pron+m.mon@pron+f.ma
+your	pron+m.ton@pron+f.ta
+his	pron+m.son@pron+f.sa
+```
+
+### Adjectives
+
+```
+new	a+m.nouveau@a+f.nouvelle
+first	a+m.premier@a+f.première
+free	a+m.gratuit@a+f.gratuite
+```
+
+---
+
+## Examples of Correct French Entries
+
+```
+the	art+m.le@art+f.la
+of	prep.de
+and	conj.et
+a	art+m.un@art+f.une
+water	n+f.eau
+book	n+m.livre
+business	n+m.affaire@n+f.entreprise
+light	n+f.lumière@n+m.feu
+it	pron+m.il@pron+f.elle
+run	v.courir@n+f.course
+```
+
+---
+
+## Workflow
+
+1. Locate the **first untranslated word**
+2. Translate the next **100 words**
+3. Edit the file **in place**
+4. Repeat continuously
+
+---
+
+## CRITICAL RULES
+
+* ❌ Do NOT ask for permission to continue
+* ❌ Do NOT summarize progress
+* ❌ Do NOT append entries
+* ❌ Do NOT use commas to separate meanings
+* ❌ Do NOT omit gender on French nouns
+* ✅ ONLY stop when output is truncated by context limits
+
+---
+
+## Goal
+
+Translate **as many entries as possible** with:
+
+* correct POS
+* explicit gender where required
+* unambiguous realizations
+
+---
+
+**Begin by identifying the first untranslated word, then translate the next 100 entries.**
+
+

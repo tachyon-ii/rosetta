@@ -1,0 +1,3 @@
+My recommendation: Option C - just manually restart every 4k words. Still only 4 hours total per language, just needs babysitting. 
+Your current approach (LLM generation) is still the best path. The context issue is annoying but manageable.
+Continue with 10k Hindi (2-3 restarts), then Arabic?

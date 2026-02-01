@@ -1,0 +1,208 @@
+# Japanese Translation Continuation Task
+
+You are continuing translation work on `dictionary/en_ja.txt` — an English—Japanese dictionary file.
+
+Japanese does **not** have grammatical gender for nouns. This dictionary uses simplified POS tags without gender markers.
+
+---
+
+## Your Task
+
+1. **Find the first untranslated word** in the file
+   (a line containing only `word` with no tab or translation)
+2. **Translate in batches of 100 words** at a time
+3. **Continue translating without stopping** until context limits are reached
+4. **Format strictly** using the dictionary format defined below
+
+---
+
+## Dictionary Format
+
+**File type:** TSV (Tab-Separated Values)
+**Encoding:** UTF-8
+
+**Structure:**
+
+```
+word<TAB>pos.translation@pos.translation
+```
+
+---
+
+## Normalization Rules
+
+* All headwords lowercase
+* Hyphens removed (`any-thing → anything`)
+* No commas used to separate meanings
+* All distinct realizations separated with `@`
+* No articles embedded in noun translations
+* First occurrence of a headword wins
+
+---
+
+## Core Principle
+
+> Japanese does not have grammatical gender.
+> Translations use simple POS tags without gender markers.
+
+No sentence-level rewrite is performed.
+
+---
+
+## Part-of-Speech Tags
+
+| Dict tag | UDPipe | Meaning                                |
+| -------- | ------ | -------------------------------------- |
+| n.       | NOUN   | noun                                   |
+| v.       | VERB   | verb (general)                         |
+| vt.      | VERB   | transitive verb                        |
+| vi.      | VERB   | intransitive verb                      |
+| a.       | ADJ    | adjective                              |
+| ad.      | ADV    | adverb                                 |
+| art.     | DET    | article/determiner                     |
+| pron.    | PRON   | pronoun                                |
+| prep.    | ADP    | postposition/particle                  |
+| conj.    | CCONJ  | conjunction                            |
+| int.     | INTJ   | interjection                           |
+
+---
+
+## Meaning & POS Separation Rules (Authoritative)
+
+* `@` separates **all distinct realizations**
+  * different POS
+  * different meanings (even within same POS)
+* `,` is **not used**
+
+### Examples
+
+Single realization:
+
+```
+water n.水
+```
+
+Multiple meanings, same POS:
+
+```
+business  n.事業@n.商売
+```
+
+Different POS:
+
+```
+control n.制御@v.制御する
+```
+
+Multiple meanings, same POS:
+
+```
+bank  n.銀行@n.土手
+```
+
+---
+
+## Japanese Language Notes
+
+* **No grammatical gender** - nouns, pronouns, and adjectives do not inflect for gender
+* **No articles** - Japanese does not use articles like "the" or "a/an"
+* **Verb forms** - Use dictionary form (終止形) ending in -る, -う, -す, etc.
+* **Kanji preference** - Use standard kanji where common; hiragana for particles
+* **Multiple readings** - Choose the most common reading/form
+
+---
+
+## Common Words
+
+### Articles (Japanese has none)
+
+```
+the art.—
+a art.—
+an  art.—
+```
+
+### Pronouns
+
+```
+it  pron.それ@pron.これ
+they  pron.彼ら@pron.彼女ら
+he  pron.彼
+she pron.彼女
+I pron.私@pron.僕
+you pron.あなた@pron.君
+we  pron.私たち@pron.我々
+```
+
+### Basic Words
+
+```
+of  prep.の
+and conj.と@conj.そして
+to  prep.に@prep.へ
+in  prep.に@prep.で
+```
+
+### Adjectives (no gender agreement)
+
+```
+new a.新しい
+good  a.良い@a.いい
+big a.大きい
+small a.小さい
+```
+
+---
+
+## Examples of Correct Japanese Entries
+
+```
+the art.—
+of  prep.の
+and conj.と
+a art.—
+water n.水
+book  n.本
+house n.家
+business  n.事業@n.商売
+light n.光@n.火
+run v.走る@n.ラン
+go  v.行く
+come  v.来る
+good  a.良い@a.いい
+bad a.悪い
+```
+
+---
+
+## Workflow
+
+1. Locate the **first untranslated word**
+2. Translate the next **100 words**
+3. Edit the file **in place**
+4. Repeat continuously
+
+---
+
+## CRITICAL RULES
+
+* ✗ Do NOT ask for permission to continue
+* ✗ Do NOT summarize progress
+* ✗ Do NOT append entries
+* ✗ Do NOT use commas to separate meanings
+* ✗ Do NOT add gender markers (Japanese has none)
+* ✓ ONLY stop when output is truncated by context limits
+
+---
+
+## Goal
+
+Translate **as many entries as possible** with:
+
+* correct POS
+* natural Japanese forms
+* unambiguous realizations
+
+---
+
+**Begin by identifying the first untranslated word, then translate the next 100 entries.**

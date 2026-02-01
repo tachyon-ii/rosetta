@@ -1,0 +1,251 @@
+# Arabic Translation Continuation Task
+
+You are continuing translation work on `dictionary/en_ar.txt` — an English—Arabic dictionary file.
+
+This dictionary **explicitly encodes grammatical gender for nouns** and **gender-bound realizations** for agreement carriers (articles, pronouns, possessives, adjectives).
+
+---
+
+## Your Task
+
+1. **Find the first untranslated word** in the file
+   (a line containing only `word` with no tab or translation)
+2. **Translate in batches of 100 words** at a time
+3. **Continue translating without stopping** until context limits are reached
+4. **Format strictly** using the dictionary format defined below
+
+---
+
+## Dictionary Format
+
+**File type:** TSV (Tab-Separated Values)
+**Encoding:** UTF-8
+
+**Structure:**
+
+```
+word<TAB>pos.translation@pos.translation
+```
+
+---
+
+## Normalization Rules
+
+* All headwords lowercase
+* Hyphens removed (`any-thing → anything`)
+* No commas used to separate meanings
+* All distinct realizations separated with `@`
+* No articles embedded in noun translations
+* Arabic script must be used (not romanized)
+* First occurrence of a headword wins
+* Use Modern Standard Arabic (MSA), not dialectal forms
+
+---
+
+## Core Principle
+
+> **Gender is a property of nouns.**
+> Articles, pronouns, possessives, and adjectives expose **gender-bound realizations** to allow local binding.
+
+No sentence-level rewrite is performed.
+
+---
+
+## Part-of-Speech Tags
+
+| Dict tag | UDPipe | Meaning                                |
+| -------- | ------ | -------------------------------------- |
+| n.       | NOUN   | noun (gender unknown / not applicable) |
+| n+f.     | NOUN   | feminine noun                          |
+| n+m.     | NOUN   | masculine noun                         |
+| v.       | VERB   | verb (general)                         |
+| vt.      | VERB   | transitive verb                        |
+| vi.      | VERB   | intransitive verb                      |
+| a.       | ADJ    | adjective                              |
+| ad.      | ADV    | adverb                                 |
+| art.     | DET    | article (ungendered selector)          |
+| art+f.   | DET    | article, feminine realization          |
+| art+m.   | DET    | article, masculine realization         |
+| pron.    | PRON   | pronoun (ungendered)                   |
+| pron+f.  | PRON   | feminine pronoun                       |
+| pron+m.  | PRON   | masculine pronoun                      |
+| prep.    | ADP    | preposition                            |
+| conj.    | CCONJ  | conjunction                            |
+| int.     | INTJ   | interjection                           |
+
+---
+
+## Meaning & POS Separation Rules (Authoritative)
+
+* `@` separates **all distinct realizations**
+
+  * different POS
+  * different genders
+  * different meanings (even within same POS)
+* `,` is **not used**
+
+### Examples
+
+Single realization:
+
+```
+water	n+m.ماء
+```
+
+Same POS, different gender:
+
+```
+business	n+m.عمل@n+f.شركة
+```
+
+Different POS:
+
+```
+control	n+f.سيطرة@v.يسيطر
+```
+
+Same POS, same gender, different meanings:
+
+```
+bank	n+m.بنك@n+m.ضفة
+```
+
+---
+
+## Gender Rules (Arabic)
+
+* **All Arabic nouns MUST include gender** (`n+f.` or `n+m.`)
+* Use plain `n.` only if gender is genuinely unknown or not applicable
+* Gender is **never inferred** for verbs or prepositions
+* Arabic has **two genders**: masculine and feminine (no neuter)
+* Most feminine nouns end in ة (taa marbuta) but not all
+* Dual and plural forms may be included as separate meanings if essential
+
+---
+
+## Agreement Carriers (Required)
+
+### Articles
+
+Arabic has a definite article that attaches to nouns:
+
+```
+the	art+m.ال@art+f.ال
+```
+
+Note: ال (al-) is the same form for both genders, but the noun's inherent gender determines agreement.
+
+### Pronouns
+
+```
+he	pron+m.هو
+she	pron+f.هي
+it	pron+m.هو@pron+f.هي
+they	pron+m.هم@pron+f.هن
+```
+
+Note: Arabic uses gender-specific plural pronouns.
+
+### Possessives
+
+```
+my	pron.ـي
+your	pron+m.ـك@pron+f.ـكِ
+his	pron+m.ـه
+her	pron+f.ـها
+```
+
+Note: Possessive pronouns are suffixes in Arabic.
+
+### Adjectives
+
+Arabic adjectives agree in gender with their nouns:
+
+```
+new	a+m.جديد@a+f.جديدة
+big	a+m.كبير@a+f.كبيرة
+small	a+m.صغير@a+f.صغيرة
+good	a+m.جيد@a+f.جيدة
+```
+
+---
+
+## Examples of Correct Arabic Entries
+
+```
+the	art.ال
+of	prep.من@prep.لـ
+and	conj.و
+a	art.—
+water	n+m.ماء
+book	n+m.كتاب
+house	n+m.بيت@n+f.دار
+car	n+f.سيارة
+school	n+f.مدرسة
+business	n+m.عمل@n+f.شركة
+light	n+m.ضوء@n+m.نور
+run	v.يجري@n+m.جري
+```
+
+---
+
+## Special Considerations for Arabic
+
+### Definiteness
+The article ال (al-) marks definiteness. Do not include it in noun translations.
+
+```
+✓ water	n+m.ماء
+✗ water	n+m.الماء
+```
+
+### Sun and Moon Letters
+The definite article ال assimilates with sun letters (حروف شمسية). This is a phonetic feature handled by the reader software, not encoded in the dictionary.
+
+### Broken Plurals
+Arabic has both sound plurals and broken (irregular) plurals. Include only the singular form in noun translations unless the plural has a distinct meaning.
+
+### Verb Forms
+Use the he-form (هو) third-person masculine singular present tense as the default verb form:
+
+```
+write	v.يكتب
+read	v.يقرأ
+```
+
+---
+
+## Workflow
+
+1. Locate the **first untranslated word**
+2. Translate the next **100 words**
+3. Edit the file **in place**
+4. Repeat continuously
+
+---
+
+## CRITICAL RULES
+
+* ❌ Do NOT ask for permission to continue
+* ❌ Do NOT summarize progress
+* ❌ Do NOT append entries
+* ❌ Do NOT use commas to separate meanings
+* ❌ Do NOT omit gender on Arabic nouns
+* ❌ Do NOT romanize Arabic (use Arabic script)
+* ❌ Do NOT include the definite article in noun translations
+* ✅ ONLY stop when output is truncated by context limits
+
+---
+
+## Goal
+
+Translate **as many entries as possible** with:
+
+* correct POS
+* explicit gender where required
+* unambiguous realizations
+* proper Arabic script (MSA)
+
+---
+
+**Begin by identifying the first untranslated word, then translate the next 100 entries.**

@@ -1,0 +1,210 @@
+# Indonesian Translation Continuation Task
+
+You are continuing translation work on `dictionary/en_id.txt` — an English—Indonesian dictionary file.
+
+Indonesian does **not** have grammatical gender for nouns. This dictionary uses simplified POS tags without gender markers.
+
+---
+
+## Your Task
+
+1. **Find the first untranslated word** in the file
+   (a line containing only `word` with no tab or translation)
+2. **Translate in batches of 100 words** at a time
+3. **Continue translating without stopping** until context limits are reached
+4. **Format strictly** using the dictionary format defined below
+
+---
+
+## Dictionary Format
+
+**File type:** TSV (Tab-Separated Values)
+**Encoding:** UTF-8
+
+**Structure:**
+
+```
+word<TAB>pos.translation@pos.translation
+```
+
+---
+
+## Normalization Rules
+
+* All headwords lowercase
+* Hyphens removed (`any-thing → anything`)
+* No commas used to separate meanings
+* All distinct realizations separated with `@`
+* No articles embedded in noun translations
+* First occurrence of a headword wins
+
+---
+
+## Core Principle
+
+> Indonesian does not have grammatical gender.
+> Translations use simple POS tags without gender markers.
+
+No sentence-level rewrite is performed.
+
+---
+
+## Part-of-Speech Tags
+
+| Dict tag | UDPipe | Meaning                                |
+| -------- | ------ | -------------------------------------- |
+| n.       | NOUN   | noun                                   |
+| v.       | VERB   | verb (general)                         |
+| vt.      | VERB   | transitive verb                        |
+| vi.      | VERB   | intransitive verb                      |
+| a.       | ADJ    | adjective                              |
+| ad.      | ADV    | adverb                                 |
+| art.     | DET    | article/determiner                     |
+| pron.    | PRON   | pronoun                                |
+| prep.    | ADP    | preposition                            |
+| conj.    | CCONJ  | conjunction                            |
+| int.     | INTJ   | interjection                           |
+
+---
+
+## Meaning & POS Separation Rules (Authoritative)
+
+* `@` separates **all distinct realizations**
+
+  * different POS
+  * different meanings (even within same POS)
+* `,` is **not used**
+
+### Examples
+
+Single realization:
+
+```
+water n.air
+```
+
+Multiple meanings, same POS:
+
+```
+business  n.bisnis@n.perusahaan
+```
+
+Different POS:
+
+```
+control n.kontrol@v.mengontrol
+```
+
+Multiple meanings, same POS:
+
+```
+bank  n.bank@n.tepi
+```
+
+---
+
+## Indonesian Language Notes
+
+* **No grammatical gender** - nouns, pronouns, and adjectives do not inflect for gender
+* **No articles** - Indonesian does not use articles like "the" or "a/an"
+* **Verb affixes** - Use base form or appropriate affix (meN-, ber-, etc.) as natural
+* **Plural forms** - Typically indicated by context or reduplication, use singular form
+
+---
+
+## Common Words
+
+### Articles (Indonesian has none)
+
+```
+the art.—
+a art.—
+an  art.—
+```
+
+### Pronouns
+
+```
+it  pron.itu@pron.ini
+they  pron.mereka
+he  pron.dia@pron.ia
+she pron.dia@pron.ia
+I pron.saya@pron.aku
+you pron.anda@pron.kamu
+we  pron.kami@pron.kita
+```
+
+Note: Indonesian uses the same pronouns for he/she (dia/ia).
+
+### Basic Words
+
+```
+of  prep.dari@prep.tentang
+and conj.dan
+to  prep.ke@prep.untuk
+in  prep.di@prep.dalam
+```
+
+### Adjectives (no gender agreement)
+
+```
+new a.baru
+good  a.baik
+big a.besar
+small a.kecil
+```
+
+---
+
+## Examples of Correct Indonesian Entries
+
+```
+the art.—
+of  prep.dari
+and conj.dan
+a art.—
+water n.air
+book  n.buku
+house n.rumah
+business  n.bisnis@n.perusahaan
+light n.cahaya@n.api
+run v.berlari@v.lari@n.lari
+go  v.pergi
+come  v.datang
+good  a.baik
+bad a.buruk
+```
+
+---
+
+## Workflow
+
+1. Locate the **first untranslated word**
+2. Translate the next **100 words**
+3. Edit the file **in place**
+4. Repeat continuously
+
+---
+
+## CRITICAL RULES
+
+* ❌ Do NOT ask for permission to continue
+* ❌ Do NOT summarize progress
+* ❌ Do NOT append entries
+* ❌ Do NOT use commas to separate meanings
+* ❌ Do NOT add gender markers (Indonesian has none)
+* ✅ ONLY stop when output is truncated by context limits
+
+---
+
+## Goal
+
+Translate **as many entries as possible** with:
+
+* correct POS
+* natural Indonesian forms
+* unambiguous realizations
+
+---
+
+**Begin by identifying the first untranslated word, then translate the next 100 entries.**
