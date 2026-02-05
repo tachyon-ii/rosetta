@@ -5063,7 +5063,7 @@ terror	n+f.terreur
 younger	a.plus jeune
 thirty	num.trente
 mice	n+f.souris
-opposite	a.opposé@n+m.opposé@prp.en face de
+opposite	a.opposé@n+m.opposé@prep.en face de
 understood	v.compris
 rapidly	ad.rapidement
 ban	v.interdire@n+f.interdiction
@@ -5113,7 +5113,7 @@ polyphonic	a.polyphonique
 lottery	n+f.loterie
 tops	n+m.hauts@v.dépasse
 framed	a.encadré@v.encadré
-aside	ad.de côté@prp.à part
+aside	ad.de côté@prep.à part
 outsourcing	n+f.externalisation
 licence	n+f.licence@n+f.permis
 adjustable	a.ajustable@a.réglable
@@ -5334,7 +5334,7 @@ passage	n+m.passage
 transferred	v.transféré
 trunk	n+m.tronc@n+m.coffre
 hiking	n+f.randonnée@v.faisant de la randonnée
-damn	intj.merde@a.sacré@v.damner
+damn	int.merde@a.sacré@v.damner
 pierre	n+f.pierre@n+m.pierre
 headset	n+m.casque@n+m.écouteurs
 photograph	n+f.photographie@v.photographier
@@ -5423,7 +5423,7 @@ flows	v.coule@n+m.flux
 stadium	n+m.stade
 venezuela	n+m.venezuela
 exploration	n+f.exploration
-fewer	a.moins de@det.moins de
+fewer	a.moins de@art.moins de
 sequences	n+f.séquences
 coupon	n+m.coupon@n+m.bon
 nurses	n+f.infirmières@v.allaite
@@ -5570,7 +5570,7 @@ territories	n+m.territoires
 melissa	n+f.melissa
 moscow	n+m.moscou
 thesis	n+f.thèse
-thru	prp.à travers
+thru	prep.à travers
 jews	n+m.juifs
 nylon	n+m.nylon
 palestinian	a.palestinien@n+m.palestinien@n+f.palestinienne
@@ -5704,7 +5704,7 @@ fake	a.faux@v.simuler@n+m.faux
 salon	n+m.salon
 collaborative	a.collaboratif
 norman	n+m.norman@a.normand
-excluding	v.excluant@prp.à l'exclusion de
+excluding	v.excluant@prep.à l'exclusion de
 turbo	n+m.turbo@a.turbo
 headed	v.dirigé@a.en direction de
 voters	n+m.électeurs
@@ -5728,7 +5728,7 @@ tricks	n+m.tours@n+f.astuces@v.trompe
 reset	v.réinitialiser@n+f.réinitialisation
 brush	n+f.brosse@v.brosser
 investigate	v.enquêter@v.examiner
-thy	det+m.ton@det+f.ta
+thy	art+m.ton@art+f.ta
 panels	n+m.panneaux
 repeated	v.répété@a.répété
 assault	n+f.agression@v.agresser
@@ -5934,7 +5934,7 @@ bingo	n+m.bingo
 whilst	conj.tandis que@conj.alors que
 spatial	a.spatial
 respondents	n+m.répondants
-unto	prp.à@prp.vers
+unto	prep.à@prep.vers
 ceramic	a.céramique@n+f.céramique
 prompt	a.rapide@v.inciter@n+m.invite
 precious	a.précieux
@@ -6417,7 +6417,7 @@ surfaces	n+f.surfaces
 terrible	a.terrible
 routers	n+m.routeurs
 cruz	n+f.cruz
-pendant	n+m.pendentif@prp.pendant
+pendant	n+m.pendentif@prep.pendant
 dresses	n+f.robes@v.habille
 baptist	n+m.baptiste@a.baptiste
 scientist	n+m.scientifique@n+f.scientifique
@@ -6520,7 +6520,7 @@ forecasts	n+f.prévisions@v.prévoit
 detect	v.détecter
 sluts	n+f.salopes
 actively	ad.activement
-ciao	intj.ciao@intj.salut
+ciao	int.ciao@int.salut
 knee	n+m.genou
 prep	n+f.préparation@v.préparer
 complicated	a.compliqué@v.compliqué
@@ -6952,7 +6952,7 @@ danny	n+m.danny
 slight	a.léger@v.snober
 proceeds	n+m.produit@n+m.recettes@v.procède
 indirect	a.indirect
-amongst	prp.parmi
+amongst	prep.parmi
 wool	n+f.laine
 foundations	n+f.fondations
 arrest	v.arrêter@n+f.arrestation
@@ -6990,7 +6990,7 @@ snake	n+m.serpent
 succeed	v.réussir@v.succéder
 leonard	n+m.leonard
 lending	v.prêtant@n+m.prêt
-oops	intj.oups
+oops	int.oups
 reminder	n+m.rappel
 nipple	n+m.mamelon@n+m.téton
 searched	v.cherché@v.fouillé
@@ -7087,7 +7087,7 @@ comm	n+f.communication
 ellen	n+f.ellen
 competitors	n+m.concurrents
 rocket	n+f.fusée
-aye	intj.oui@ad.oui
+aye	int.oui@ad.oui
 bullet	n+f.balle
 towers	n+f.tours@v.domine
 racks	n+m.étagères@n+f.râteliers@v.empile
@@ -7139,7 +7139,7 @@ spelling	n+f.orthographe@v.épelant
 arctic	a.arctique@n+m.arctique
 exams	n+m.examens
 rewards	n+f.récompenses@v.récompense
-beneath	prp.sous@prp.en dessous de
+beneath	prep.sous@prep.en dessous de
 strengthen	v.renforcer
 defend	v.défendre
 frederick	n+m.frederick
@@ -7181,7 +7181,7 @@ surplus	n+m.surplus@a.excédentaire
 elder	a.aîné@n+m.aîné
 sonic	a.sonique
 obituaries	n+f.nécrologies
-cheers	intj.santé@v.applaudit
+cheers	int.santé@v.applaudit
 dig	v.creuser@v.fouiller
 taxi	n+m.taxi
 punishment	n+f.punition@n+m.châtiment
@@ -7346,7 +7346,7 @@ rapids	n+m.rapides
 disco	n+f.discothèque@n+m.disco
 sheffield	n+m.sheffield
 bailey	n+m.bailey
-aus	prp.de@n+f.australie
+aus	prep.de@n+f.australie
 finishing	v.finissant@n+f.finition
 emotions	n+f.émotions
 wellington	n+m.wellington
@@ -7370,7 +7370,7 @@ eugene	n+m.eugene
 pig	n+m.cochon@n+m.porc
 metric	a.métrique@n+f.métrique
 compliant	a.conforme
-minus	prp.moins@n+m.moins
+minus	prep.moins@n+m.moins
 penalties	n+f.pénalités
 bennett	n+m.bennett
 imagination	n+f.imagination
@@ -7520,7 +7520,7 @@ holly	n+m.houx@n+f.holly
 formatting	n+m.formatage@v.formatant
 silly	a.bête@a.stupide
 nutritional	a.nutritionnel
-yea	ad.oui@intj.oui
+yea	ad.oui@int.oui
 mercy	n+f.pitié@n+f.miséricorde
 hartford	n+m.hartford
 freely	ad.librement
@@ -7841,14 +7841,14 @@ prominent	a.éminent@a.proéminent
 retrieve	v.récupérer@v.retrouver
 lexington	n+m.lexington
 vernon	n+m.vernon
-sans	prp.sans
+sans	prep.sans
 titanium	n+m.titane
 fairy	n+f.fée
 builds	v.construit@n+f.versions
 contacted	v.contacté@a.contacté
 shaft	n+m.arbre@n+f.tige
 lean	a.maigre@v.pencher
-bye	intj.au revoir
+bye	int.au revoir
 recorders	n+m.enregistreurs
 occasional	a.occasionnel
 leslie	n+m.leslie@n+f.leslie
@@ -8335,7 +8335,7 @@ eden	n+m.éden
 distant	a.distant@a.éloigné
 incl	v.inclus@a.inclus
 champagne	n+m.champagne
-ala	prp.à la
+ala	prep.à la
 decimal	a.décimal@n+f.décimale
 deviation	n+f.déviation@n+m.écart
 superintendent	n+m.surintendant@n+m.directeur
@@ -8421,7 +8421,7 @@ griffin	n+m.griffin
 declined	v.refusé@v.décliné
 guyana	n+f.guyane
 spies	n+m.espions@v.espionne
-blah	intj.bla-bla
+blah	int.bla-bla
 mime	n+m.mime@v.mimer
 motorcycles	n+f.motos
 elect	v.élire
@@ -8467,7 +8467,7 @@ brakes	n+m.freins@v.freine
 nirvana	n+m.nirvana
 fairfield	n+m.fairfield
 owns	v.possède
-til	prp.jusqu'à
+til	prep.jusqu'à
 sticky	a.collant
 destiny	n+m.destin
 generous	a.généreux
@@ -8631,7 +8631,7 @@ washer	n+f.rondelle@n+m.lave-linge
 upset	a.bouleversé@v.contrarier
 restrict	v.restreindre@v.limiter
 springer	n+m.springer
-beside	prp.à côté de
+beside	prep.à côté de
 mines	n+f.mines@pron+m.les miens
 portraits	n+m.portraits
 rebound	v.rebondir@n+m.rebond
@@ -9420,7 +9420,7 @@ receipts	n+m.reçus@n+f.recettes
 assisting	v.assistant
 shirley	n+f.shirley
 sanctions	n+f.sanctions@v.sanctionne
-goodbye	intj.au revoir@n+m.au revoir
+goodbye	int.au revoir@n+m.au revoir
 viable	a.viable
 emerged	v.émergé
 defect	n+m.défaut@v.faire défection
@@ -9493,7 +9493,7 @@ headsets	n+m.casques
 manipulation	n+f.manipulation
 bells	n+f.cloches
 vascular	a.vasculaire
-alongside	prp.à côté de@ad.aux côtés
+alongside	prep.à côté de@ad.aux côtés
 impressions	n+f.impressions
 yankees	n+m.yankees
 toxicity	n+f.toxicité
@@ -10068,7 +10068,7 @@ culinary	a.culinaire
 fairfax	n+m.fairfax
 beck	n+m.beck
 semantics	n+f.sémantique
-huh	intj.hein
+huh	int.hein
 accountant	n+m.comptable
 beige	a.beige@n+m.beige
 auditing	v.auditant@n+m.audit
@@ -10092,7 +10092,7 @@ overstock	n+m.surstock@v.surstocker
 homer	n+m.homère@n+m.homer
 daylight	n+f.lumière du jour
 macdonald	n+m.macdonald
-hmm	intj.hmm
+hmm	int.hmm
 gases	n+m.gaz
 dependency	n+f.dépendance
 dioxide	n+m.dioxyde
@@ -10198,7 +10198,7 @@ bruno	n+m.bruno
 attracted	v.attiré@a.attiré
 undertaking	n+f.entreprise@v.entreprenant
 slavery	n+f.esclavage
-notwithstanding	prp.malgré@ad.néanmoins
+notwithstanding	prep.malgré@ad.néanmoins
 evite	n+f.evite
 feasible	a.faisable@a.réalisable
 romans	n+m.romains
@@ -10300,7 +10300,7 @@ prevented	v.empêché@v.prévenu
 digits	n+m.chiffres
 err	v.errer@v.se tromper
 banker	n+m.banquier@n+f.banquière
-sup	intj.salut@v.souper
+sup	int.salut@v.souper
 easiest	a.le plus facile@a.la plus facile
 microbiology	n+f.microbiologie
 borrow	v.emprunter
@@ -10375,7 +10375,7 @@ substitution	n+f.substitution@n+m.remplacement
 burma	n+f.birmanie
 cease	v.cesser@v.arrêter
 deserves	v.mérite
-aboard	ad.à bord@prp.à bord de
+aboard	ad.à bord@prep.à bord de
 paradigm	n+m.paradigme
 irving	n+m.irving
 perfection	n+f.perfection
@@ -10669,7 +10669,7 @@ decreases	v.diminue@n+f.diminutions
 metrics	n+f.métriques
 crisp	a.croustillant@a.croustillante@n+f.chips
 inability	n+f.incapacité
-cor	intj.oh là là@n+m.cor
+cor	int.oh là là@n+m.cor
 goo	n+f.substance gluante
 coronary	a.coronaire@a.coronarien
 bldg	n+m.bâtiment
@@ -11197,7 +11197,7 @@ solicitation	n+f.sollicitation@n+f.démarchage
 darren	n+m.darren
 rectangular	a.rectangulaire
 fischer	n+m.fischer
-pooh	n+m.winnie l'ourson@intj.bah
+pooh	n+m.winnie l'ourson@int.bah
 enthusiast	n+m.enthousiaste@n+f.enthousiaste
 positively	ad.positivement
 shaping	v.façonnant@n+m.façonnage
@@ -11219,7 +11219,7 @@ synchronization	n+f.synchronisation
 mccarthy	n+m.mccarthy
 informatics	n+f.informatique
 oakley	n+m.oakley
-heck	intj.diable@n+m.heck
+heck	int.diable@n+m.heck
 rants	n+f.diatribes@v.déclame
 tarot	n+m.tarot
 brenda	n+f.brenda
@@ -11390,7 +11390,7 @@ hammond	n+m.hammond
 swimwear	n+m.maillots de bain
 padded	a.rembourré@a.rembourrée@v.rembourré
 applet	n+f.applet
-circa	prp.vers@prp.environ
+circa	prep.vers@prep.environ
 revise	v.réviser
 contributes	v.contribue
 threesomes	n+m.trios@n+m.plans à trois
@@ -11456,7 +11456,7 @@ montserrat	n+f.montserrat
 telecommunication	n+f.télécommunication
 presumably	ad.vraisemblablement
 coatings	n+m.revêtements
-eureka	intj.eurêka
+eureka	int.eurêka
 plea	n+m.plaidoyer@n+f.supplication
 constructive	a.constructif@a.constructive
 bundles	n+m.paquets@n+m.lots
@@ -11586,7 +11586,7 @@ plump	a.dodu@a.dodue@v.rebondi
 memoirs	n+m.mémoires
 alkaline	a.alcalin@a.alcaline
 expire	v.expirer
-och	intj.oh
+och	int.oh
 midst	n+m.milieu
 methyl	n+m.méthyle
 campuses	n+m.campus
@@ -11707,7 +11707,7 @@ successor	n+m.successeur
 intrusion	n+f.intrusion
 sickness	n+f.maladie
 guiana	n+f.guyane
-underneath	prp.sous@ad.dessous
+underneath	prep.sous@ad.dessous
 prohibit	v.interdire
 metabolic	a.métabolique
 noel	n+m.noël
@@ -11766,7 +11766,7 @@ daytime	n+m.jour@n+f.journée
 elaborate	a.élaboré@a.élaborée@v.élaborer
 contour	n+m.contour
 gamble	v.parier@n+m.pari
-fra	prp.fra
+fra	prep.fra
 descent	n+f.descente
 gravel	n+m.gravier
 analyse	v.analyser@n+f.analyse
@@ -11775,7 +11775,7 @@ judged	v.jugé@a.jugé
 shutter	n+m.volet@n+m.obturateur
 illusion	n+f.illusion
 ambitious	a.ambitieux@a.ambitieuse
-ole	intj.olé
+ole	int.olé
 notorious	a.notoire@a.tristement célèbre
 ibid	ad.ibid
 residue	n+m.résidu
@@ -12386,7 +12386,7 @@ squeeze	v.presser@n+f.pression
 burgundy	n+f.bourgogne
 struggles	v.lutte@n+f.luttes
 pep	n+m.entrain@n+f.énergie
-farewell	n+m.adieu@intj.adieu
+farewell	n+m.adieu@int.adieu
 soho	n+m.soho
 ashes	n+f.cendres
 vanguard	n+f.avant-garde
@@ -12420,7 +12420,7 @@ pops	v.éclate@n+m.pops
 judaism	n+m.judaïsme
 goldberg	n+m.goldberg
 atlantis	n+f.atlantide
-amid	prp.au milieu de@prp.parmi
+amid	prep.au milieu de@prep.parmi
 onions	n+m.oignons
 preteen	n+m.préadolescent@n+f.préadolescente
 bonding	v.liant@n+m.collage
@@ -12463,7 +12463,7 @@ staffordshire	n+m.staffordshire
 factories	n+f.usines
 swords	n+f.épées
 advancing	v.avançant
-yep	intj.ouais
+yep	int.ouais
 timed	v.chronométré@a.chronométré
 evolve	v.évoluer
 yuan	n+m.yuan
@@ -12694,7 +12694,7 @@ franchises	n+f.franchises@v.accorde une franchise
 rams	n+m.béliers@v.enfonce
 cleansing	v.nettoyant@n+m.nettoyage
 mfr	n+m.fabricant
-boo	v.huer@intj.hou
+boo	v.huer@int.hou
 genomic	a.génomique
 gown	n+f.robe
 ponds	n+m.étangs
@@ -12766,7 +12766,7 @@ competencies	n+f.compétences
 restoring	v.restaurant
 sanchez	n+m.sanchez
 rushing	v.se précipitant@n+m.précipitation
-behold	v.contempler@intj.voici
+behold	v.contempler@int.voici
 amherst	n+m.amherst
 alteration	n+f.modification@n+f.altération
 trainee	n+m.stagiaire@n+f.stagiaire
@@ -12948,7 +12948,7 @@ pakistani	a.pakistanais@a.pakistanaise@n+m.pakistanais
 harmless	a.inoffensif@a.inoffensive
 bitches	n+f.salopes@n+f.chiennes
 sting	v.piquer@n+f.piqûre
-bravo	intj.bravo
+bravo	int.bravo
 believers	n+m.croyants@n+f.croyantes
 diagnose	v.diagnostiquer
 franco	n+m.franco
@@ -12988,7 +12988,7 @@ grouped	v.regroupé@a.regroupé
 dominate	v.dominer
 asians	n+m.asiatiques@a.asiatiques
 orient	v.orienter@n+m.orient
-contra	prp.contre
+contra	prep.contre
 damaging	v.endommageant@a.dommageable
 populated	v.peuplé@a.peuplé
 renee	n+f.renée
@@ -13777,7 +13777,7 @@ blitz	n+m.blitz
 tended	v.soigné@v.tendu
 censorship	n+f.censure
 cactus	n+m.cactus
-viva	intj.vive
+viva	int.vive
 treadmill	n+m.tapis roulant
 attained	v.atteint@a.atteint
 blew	v.souffla
@@ -13896,7 +13896,7 @@ geared	v.orienté@a.orienté
 ideals	n+m.idéaux
 chloe	n+f.chloé
 ape	n+m.singe@v.singer
-gee	intj.oh
+gee	int.oh
 apologies	n+f.excuses
 prada	n+m.prada
 tycoon	n+m.magnat
@@ -13943,7 +13943,7 @@ mastering	v.maîtrisant@n+f.maîtrise
 levine	n+m.levine
 nerves	n+m.nerfs
 retains	v.retient@v.conserve
-pow	intj.pow
+pow	int.pow
 docking	v.amarrant@n+m.amarrage
 guidebook	n+m.guide
 pilates	n+m.pilates
@@ -13991,7 +13991,7 @@ tivoli	n+m.tivoli
 transmissions	n+f.transmissions
 receivable	a.recevable@n+f.créance
 rode	v.chevaucha@v.monta
-amen	intj.amen
+amen	int.amen
 marching	v.marchant@n+f.marche
 ronnie	n+m.ronnie
 evacuation	n+f.évacuation
@@ -14131,7 +14131,7 @@ filler	n+m.remplissage@n+m.produit de remplissage
 smiley	n+m.smiley@a.souriant
 zenith	n+m.zénith
 genomics	n+f.génomique
-yum	intj.miam
+yum	int.miam
 browns	n+m.marrons@a.marrons
 researched	v.recherché@a.recherché
 waits	v.attend
@@ -14271,7 +14271,7 @@ agnes	n+f.agnès
 constituency	n+f.circonscription@n+f.électorat
 rocker	n+m.rocker@n+f.berceuse
 acknowledges	v.reconnaît
-alas	intj.hélas
+alas	int.hélas
 enrolment	n+f.inscription
 sawyer	n+m.scieur@n+m.sawyer
 maori	n+m.maori@a.maori
@@ -14332,7 +14332,7 @@ multinational	a.multinational@a.multinationale@n+f.multinationale
 painters	n+m.peintres
 thistle	n+m.chardon
 sleepy	a.endormi@a.endormie
-nope	intj.non
+nope	int.non
 footnotes	n+f.notes de bas de page
 rupert	n+m.rupert
 shrine	n+m.sanctuaire
@@ -14927,7 +14927,7 @@ iteration	n+f.itération
 vida	n+f.vida
 ceilings	n+m.plafonds
 dispenser	n+m.distributeur@n+f.distributrice
-respecting	v.respectant@prp.concernant
+respecting	v.respectant@prep.concernant
 approving	v.approuvant@a.approbateur
 unsafe	a.dangereux@a.peu sûr
 refills	n+f.recharges@v.remplit
@@ -15083,7 +15083,7 @@ juliet	n+f.juliette
 adjunct	n+m.adjoint@n+f.adjointe@a.adjoint
 guernsey	n+m.guernesey
 galore	ad.en abondance@a.à gogo
-aloha	intj.aloha
+aloha	int.aloha
 dehydrogenase	n+f.déshydrogénase
 bangor	n+m.bangor
 persia	n+f.perse
@@ -15416,7 +15416,7 @@ dwell	v.habiter@v.s'attarder
 hacked	v.piraté@a.piraté
 inaugural	a.inaugural@a.inaugurale
 awkward	a.gênant@a.maladroit
-congrats	intj.félicitations
+congrats	int.félicitations
 weaving	v.tissant@n+m.tissage
 metropolis	n+f.métropole
 arafat	n+m.arafat
@@ -15500,7 +15500,7 @@ elena	n+f.elena
 closures	n+f.fermetures@n+f.clôtures
 participatory	a.participatif@a.participative
 intermittent	a.intermittent@a.intermittente
-ante	n+f.mise@prp.avant
+ante	n+f.mise@prep.avant
 micron	n+m.micron
 budgetary	a.budgétaire
 vols	n+m.vols
@@ -15632,7 +15632,7 @@ philosophers	n+m.philosophes
 speeding	v.roulant trop vite@n+m.excès de vitesse
 creditor	n+m.créancier@n+f.créancière
 exits	n+f.sorties@v.sort
-pardon	n+m.pardon@v.pardonner@intj.pardon
+pardon	n+m.pardon@v.pardonner@int.pardon
 oder	n+m.oder
 skateboarding	n+m.skateboard@v.faisant du skateboard
 abby	n+f.abby
@@ -16136,7 +16136,7 @@ siam	n+m.siam
 latent	a.latent@a.latente
 marcia	n+f.marcia
 drowning	v.se noyant@n+f.noyade
-bullshit	n+f.connerie@intj.conneries
+bullshit	n+f.connerie@int.conneries
 casper	n+m.casper
 spun	v.filé@v.tourné
 shalt	v.devras
@@ -16753,7 +16753,7 @@ blooms	v.fleurit@n+f.fleurs
 soar	v.planer@v.monter en flèche
 jacking	v.soulevant@n+m.levage
 uniformly	ad.uniformément
-ooh	intj.ooh
+ooh	int.ooh
 subsections	n+f.sous-sections
 bod	n+m.corps
 piedmont	n+m.piémont
@@ -16838,7 +16838,7 @@ tracey	n+f.tracey
 wac	n+m.wac
 mariner	n+m.marin
 collier	n+m.collier
-hush	v.faire taire@intj.chut
+hush	v.faire taire@int.chut
 darfur	n+m.darfour
 fragmentation	n+f.fragmentation
 behavioural	a.comportemental
@@ -16991,7 +16991,7 @@ ravens	n+m.corbeaux
 underline	v.souligner@n+m.soulignement
 obscene	a.obscène
 spammers	n+m.spammeurs@n+f.spammeuses
-mes	det+m.mes
+mes	art+m.mes
 hymn	n+m.hymne
 continual	a.continuel@a.continuelle
 nuclei	n+m.noyaux
@@ -17271,7 +17271,7 @@ employability	n+f.employabilité
 wheeled	a.à roues@v.roulé
 booksellers	n+m.libraires
 noodles	n+f.nouilles
-darn	v.repriser@intj.mince
+darn	v.repriser@int.mince
 diners	n+m.dîneurs@n+m.restaurants
 greeks	n+m.grecs
 retardation	n+m.retard@n+f.arriération
@@ -17422,7 +17422,7 @@ bland	a.fade@a.insipide
 electrodes	n+f.électrodes
 darth	n+m.darth
 abatement	n+f.réduction@n+m.abattement
-yup	intj.ouais
+yup	int.ouais
 originator	n+m.initiateur@n+f.initiatrice
 ching	n+m.ching
 whipping	v.fouettant@n+m.fouet
@@ -17705,7 +17705,7 @@ gibbons	n+m.gibbons
 nitric	a.nitrique
 visuals	n+m.visuels
 breads	n+m.pains
-atop	prp.au sommet de@ad.au sommet
+atop	prep.au sommet de@ad.au sommet
 glover	n+m.glover
 railroads	n+m.chemins de fer
 unicorn	n+f.licorne
@@ -17873,14 +17873,14 @@ capacitors	n+m.condensateurs
 rockefeller	n+m.rockefeller
 convened	v.convoqué@a.convoqué
 checkbox	n+f.case à cocher
-nah	intj.nan
+nah	int.nan
 accusations	n+f.accusations
 debated	v.débattu@a.débattu
 itineraries	n+m.itinéraires
 stallion	n+m.étalon
 reagents	n+m.réactifs
 walkers	n+m.marcheurs@n+f.marcheuses
-eek	intj.aïe
+eek	int.aïe
 equipments	n+m.équipements
 necessities	n+f.nécessités
 weekdays	n+m.jours de semaine
@@ -17996,7 +17996,7 @@ marxism	n+m.marxisme
 reggie	n+m.reggie
 escondido	n+m.escondido
 diffraction	n+f.diffraction
-aha	intj.aha
+aha	int.aha
 outlining	v.décrivant@n+f.esquisse
 subtract	v.soustraire
 bosnian	a.bosniaque@n+m.bosniaque
@@ -18158,7 +18158,7 @@ anonymity	n+m.anonymat
 gotham	n+m.gotham
 lyle	n+m.lyle
 unification	n+f.unification
-sous	prp.sous
+sous	prep.sous
 pinot	n+m.pinot
 responsiveness	n+f.réactivité
 testimonial	n+m.témoignage@n+f.recommandation
@@ -18403,7 +18403,7 @@ packer	n+m.emballeur@n+f.emballeuse
 potomac	n+m.potomac
 arroyo	n+m.arroyo
 tipped	v.basculé@a.basculé@v.donné un pourboire
-amidst	prp.au milieu de@prp.parmi
+amidst	prep.au milieu de@prep.parmi
 insurgents	n+m.insurgés
 wanda	n+f.wanda
 etching	v.gravant@n+f.gravure
@@ -18502,7 +18502,7 @@ simplex	n+m.simplex@a.simple
 aerobics	n+f.aérobic
 sabrina	n+f.sabrina
 tobias	n+m.tobias
-infra	prp.infra
+infra	prep.infra
 strasbourg	n+m.strasbourg
 commemorative	a.commémoratif@a.commémorative
 condor	n+m.condor
@@ -18516,7 +18516,7 @@ comedian	n+m.comique@n+f.comique
 rascal	n+m.coquin@n+f.coquine
 amish	a.amish@n+m.amish
 roberta	n+f.roberta
-duh	intj.ben oui
+duh	int.ben oui
 hyperlinks	n+m.hyperliens
 dizzy	a.étourdi@a.pris de vertige
 clitoris	n+m.clitoris
@@ -18663,7 +18663,7 @@ spoiled	v.gâté@a.gâté@a.pourri
 pinpoint	v.localiser@a.précis
 monet	n+m.monet
 pickle	n+m.cornichon@v.mariner
-outta	prp.hors de
+outta	prep.hors de
 dieting	v.suivant un régime@n+m.régime
 quaker	n+m.quaker@n+f.quaker
 haunting	a.obsédant@v.hantant
@@ -19078,7 +19078,7 @@ flasher	n+m.clignotant@n+m.exhibitionniste
 staffs	n+m.personnels@v.dote en personnel
 subcontractors	n+m.sous-traitants@n+f.sous-traitantes
 evangelism	n+m.évangélisme
-hoo	intj.hou
+hoo	int.hou
 denomination	n+f.dénomination@n+f.confession
 abortions	n+m.avortements
 patched	v.rapiécé@a.rapiécé
@@ -19488,7 +19488,7 @@ screams	v.crie@n+m.cris
 masking	n+m.masquage@v.masquant
 tensor	n+m.tenseur
 whitehead	n+m.whitehead@n+m.point blanc
-whoa	intj.oh@intj.holà
+whoa	int.oh@int.holà
 patchwork	n+m.patchwork
 heinrich	n+m.heinrich
 laredo	n+m.laredo
@@ -19729,7 +19729,7 @@ afrikaans	n+m.afrikaans@a.afrikaans
 ven	n+f.veine
 cinematic	a.cinématographique
 admiration	n+f.admiration
-ugh	intj.beurk@intj.pouah
+ugh	int.beurk@int.pouah
 zanzibar	n+m.zanzibar
 illus	n+f.illustration
 offend	v.offenser@v.blesser
@@ -19821,7 +19821,7 @@ amused	v.amusé@a.amusé
 horizontally	ad.horizontalement
 herefordshire	n+m.herefordshire
 knitted	v.tricoté@a.tricoté
-doh	intj.oh@intj.zut
+doh	int.oh@int.zut
 exploding	v.explosant@a.explosif
 jodi	n+f.jodi
 narrowly	ad.de justesse@ad.étroitement
@@ -19910,7 +19910,7 @@ londonderry	n+m.londonderry
 hops	n+m.houblon@v.saute
 unitary	a.unitaire
 emmy	n+m.emmy
-chez	prp.chez
+chez	prep.chez
 admittedly	ad.certes@ad.il faut l'admettre
 ruiz	n+m.ruiz
 hospitalization	n+f.hospitalisation
@@ -20411,7 +20411,7 @@ venous	a.veineux
 hereunder	ad.ci-dessous
 chandeliers	n+m.lustres
 moneys	n+m.sommes d'argent
-ouch	intj.aïe
+ouch	int.aïe
 infancy	n+f.petite enfance
 teflon	n+m.téflon
 cleans	v.nettoie
@@ -20491,7 +20491,7 @@ stubborn	a.têtu@a.obstiné
 diplomats	n+m.diplomates
 physicist	n+m.physicien
 tagalog	n+m.tagalog
-coo	v.roucouler@intj.roucoulement
+coo	v.roucouler@int.roucoulement
 requiem	n+m.requiem
 nonprofits	n+f.organisations à but non lucratif
 redeemed	v.racheté@a.racheté
@@ -20840,7 +20840,7 @@ barclay	n+m.barclay
 hui	n+m.hui
 matador	n+m.matador
 smut	n+f.saleté@n+m.charbon
-dang	intj.zut
+dang	int.zut
 foes	n+m.ennemis
 meetups	n+f.rencontres
 bilbao	n+m.bilbao
@@ -21045,7 +21045,7 @@ upfront	ad.d'avance@a.franc
 hauling	v.transportant@n+m.transport
 inconsistencies	n+f.incohérences
 battlefront	n+m.front de bataille
-gosh	intj.oh@intj.mon dieu
+gosh	int.oh@int.mon dieu
 indebtedness	n+m.endettement
 scramble	v.se précipiter@n+f.bousculade
 adversary	n+m.adversaire
@@ -21235,7 +21235,7 @@ johanna	n+f.johanna
 granular	a.granulaire
 orkney	n+f.orcades
 halliburton	n+m.halliburton
-bah	intj.bah
+bah	int.bah
 underscore	v.souligner@n+m.trait de soulignement
 borg	n+m.borg
 glutamine	n+f.glutamine
@@ -21287,7 +21287,7 @@ anu	n+m.anu
 fol	a.fou
 moratorium	n+m.moratoire
 safes	n+m.coffres-forts@a.sûrs
-goodnight	intj.bonne nuit
+goodnight	int.bonne nuit
 alcoholics	n+m.alcooliques
 rocked	v.secoué@v.bercé
 rancid	a.rance
@@ -21385,7 +21385,7 @@ leaps	v.bondit@n+m.bonds@n+m.sauts
 hind	a.postérieur@n+f.biche
 renaming	v.renommant@n+m.renommage
 galvanized	v.galvanisé@a.galvanisé
-hoy	intj.ohé
+hoy	int.ohé
 teapot	n+f.théière
 conveys	v.transmet@v.exprime
 lends	v.prête
@@ -21680,7 +21680,7 @@ karlsruhe	n+m.karlsruhe
 gliding	v.planant@n+m.vol à voile
 yuri	n+m.yuri
 honeymooners	n+m.jeunes mariés
-woe	n+m.malheur@intj.hélas
+woe	n+m.malheur@int.hélas
 meditations	n+f.méditations
 dieter	n+m.dieter
 tranquility	n+f.tranquillité
@@ -21928,7 +21928,7 @@ moron	n+m.crétin@n+m.imbécile
 townhouses	n+f.maisons de ville
 merton	n+m.merton
 horrific	a.horrible@a.épouvantable
-ere	prp.avant@conj.avant que
+ere	prep.avant@conj.avant que
 abacus	n+m.boulier
 lifeline	n+f.bouée de sauvetage
 richly	ad.richement
@@ -22069,7 +22069,7 @@ consumable	a.consommable@n+m.consommable
 depressive	a.dépressif@n+m.dépressif
 stabilizer	n+m.stabilisateur
 skim	v.écrémer@v.parcourir
-touche	intj.touché
+touche	int.touché
 ovary	n+m.ovaire
 rune	n+f.rune
 welt	n+f.marque@n+f.zébrure
@@ -22397,7 +22397,7 @@ glued	v.collé@a.collé
 newt	n+m.triton
 sycamore	n+m.sycomore
 alleles	n+m.allèles
-ola	intj.olé
+ola	int.olé
 halftime	n+f.mi-temps
 frye	n+m.frye
 belinda	n+f.belinda
@@ -22700,7 +22700,7 @@ prophetic	a.prophétique
 fredericton	n+m.fredericton
 commune	n+f.commune@v.communier
 agatha	n+f.agathe
-tut	intj.tut
+tut	int.tut
 copywriting	n+f.rédaction publicitaire
 asteroids	n+m.astéroïdes
 gesellschaft	n+f.société
@@ -22760,7 +22760,7 @@ ramona	n+f.ramona
 glib	a.désinvolte@a.facile
 restricts	v.restreint
 brutality	n+f.brutalité
-gees	intj.oh@n+m.gees
+gees	int.oh@n+m.gees
 fictitious	a.fictif
 francesca	n+f.francesca
 rumour	n+f.rumeur
@@ -23103,7 +23103,7 @@ climates	n+m.climats
 speakerphone	n+m.téléphone mains libres
 uneasy	a.mal à l'aise@a.inquiet
 reissues	v.réédite@n+f.rééditions
-shalom	intj.shalom
+shalom	int.shalom
 khmer	n+m.khmer@a.khmer
 busiest	a.le plus occupé
 recordable	a.enregistrable
@@ -23458,7 +23458,7 @@ extravaganza	n+f.extravagance@n+m.spectacle
 anew	ad.à nouveau@ad.de nouveau
 commandment	n+m.commandement
 undetermined	a.indéterminé
-yah	intj.ouais
+yah	int.ouais
 conceded	v.concédé@v.reconnu
 circumference	n+f.circonférence
 postpone	v.reporter@v.ajourner
@@ -23686,7 +23686,7 @@ jest	v.plaisanter@n+f.plaisanterie
 garda	n+f.garda
 eskimo	n+m.esquimau@a.esquimau
 caesars	n+m.césars
-dammit	intj.merde
+dammit	int.merde
 luce	n+f.luce
 mfrs	n+m.fabricants
 editable	a.modifiable
@@ -23809,7 +23809,7 @@ sorcery	n+f.sorcellerie
 doubleday	n+m.doubleday
 abstain	v.s'abstenir
 elsie	n+f.elsie
-barring	v.interdisant@prp.sauf
+barring	v.interdisant@prep.sauf
 undermined	v.sapé@a.sapé
 situational	a.situationnel
 bestowed	v.accordé@a.conféré
@@ -25198,7 +25198,7 @@ boasting	v.se vantant@n+f.vantardise
 shiite	a.chiite@n+m.chiite
 valuing	v.évaluant@v.valorisant
 argon	n+m.argon
-hooray	intj.hourra
+hooray	int.hourra
 carefree	a.insouciant
 biotin	n+f.biotine
 salter	n+m.salter
@@ -25616,12 +25616,12 @@ disagreements	n+m.désaccords
 echinacea	n+f.échinacée
 phish	v.hameçonner@n+m.phish
 frigidaire	n+m.frigidaire
-hah	intj.ha
+hah	int.ha
 halibut	n+m.flétan
 fifties	n+f.années cinquante
 brno	n+f.brno
 silverware	n+f.argenterie
-goody	n+f.friandise@intj.chouette
+goody	n+f.friandise@int.chouette
 ideologies	n+f.idéologies
 feminists	n+f.féministes
 sculpted	v.sculpté@a.sculpté
@@ -25730,7 +25730,7 @@ radioactivity	n+f.radioactivité
 auctioneer	n+m.commissaire-priseur
 caine	n+m.caine
 recovers	v.récupère@v.se remet
-howdy	intj.salut
+howdy	int.salut
 marlon	n+m.marlon
 timmy	n+m.timmy
 gregorian	a.grégorien
@@ -25920,7 +25920,7 @@ foraging	v.cherchant de la nourriture
 corsets	n+m.corsets
 wasps	n+f.guêpes
 bureaucrats	n+m.bureaucrates
-wham	intj.vlan@n+m.wham
+wham	int.vlan@n+m.wham
 kowloon	n+m.kowloon
 fairytale	n+m.conte de fées
 barm	n+f.levure
@@ -26072,7 +26072,7 @@ messina	n+f.messine
 kors	n+m.kors
 schumann	n+m.schumann
 susquehanna	n+f.susquehanna
-modulo	prp.modulo
+modulo	prep.modulo
 antler	n+m.bois
 tarts	n+f.tartes
 cuthbert	n+m.cuthbert
@@ -26307,10 +26307,10 @@ turbidity	n+f.turbidité
 mountable	a.montable
 concomitant	a.concomitant
 oceanographic	a.océanographique
-zzz	intj.zzz
+zzz	int.zzz
 donner	n+m.donner
 scaffold	n+m.échafaudage@v.échafauder
-oui	intj.oui
+oui	int.oui
 millie	n+f.millie
 nonzero	a.non nul
 leisurely	a.tranquille@ad.tranquillement
@@ -26457,7 +26457,7 @@ exerted	v.exercé
 justifies	v.justifie
 freiburg	n+m.fribourg
 returnable	a.consigné@a.retournable
-ohs	intj.oh
+ohs	int.oh
 resuscitation	n+f.réanimation
 cancelling	v.annulant
 stratification	n+f.stratification
@@ -26672,7 +26672,7 @@ tastefully	ad.avec goût
 capo	n+m.capo
 pairings	n+m.appariements
 guesthouses	n+f.maisons d'hôtes
-yikes	intj.aïe
+yikes	int.aïe
 grate	v.râper@n+f.grille
 lourdes	n+f.lourdes
 exorcism	n+m.exorcisme
@@ -27286,7 +27286,7 @@ blackmail	n+m.chantage@v.faire chanter
 interconnects	v.interconnecte@n+f.interconnexions
 playtime	n+m.récréation
 criticality	n+f.criticité
-meh	intj.bof
+meh	int.bof
 moseley	n+m.moseley
 remorse	n+m.remords
 navarre	n+f.navarre
@@ -27377,7 +27377,7 @@ hazmat	n+m.matières dangereuses
 reformers	n+m.réformateurs
 dalhousie	n+f.dalhousie
 ensued	v.s'ensuivi
-ahem	intj.hum
+ahem	int.hum
 justly	ad.justement
 throats	n+f.gorges
 retardant	n+m.retardateur@a.retardateur
@@ -28242,7 +28242,7 @@ hinted	v.fait allusion@v.suggéré
 sanctity	n+f.sainteté
 sadr	n+m.sadr
 tuples	n+m.tuples
-gad	v.vadrouiller@intj.zut
+gad	v.vadrouiller@int.zut
 pedantic	a.pédant
 diarrhoea	n+f.diarrhée
 sonatas	n+f.sonates
@@ -28275,7 +28275,7 @@ basset	n+m.basset
 moreau	n+m.moreau
 limiter	n+m.limiteur
 precedents	n+m.précédents
-dah	intj.dah
+dah	int.dah
 exiled	v.exilé@a.exilé
 howells	n+m.howells
 blueberries	n+f.myrtilles
@@ -28577,7 +28577,7 @@ nonviolent	a.non violent
 glut	n+f.surabondance@v.rassasier
 fasten	v.attacher
 evangelicals	n+m.évangéliques
-goddamn	a.foutu@intj.bon sang
+goddamn	a.foutu@int.bon sang
 locksmith	n+m.serrurier
 interrupting	v.interrompant@a.interrompant
 sulla	n+m.sulla
@@ -28668,7 +28668,7 @@ pacemaker	n+m.stimulateur cardiaque
 evaluators	n+m.évaluateurs
 tarball	n+m.archive tar
 nears	v.approche@v.s'approche
-pah	intj.bah@intj.peuh
+pah	int.bah@int.peuh
 lasso	n+m.lasso@v.attraper au lasso
 soot	n+f.suie
 mog	n+m.chat@n+m.matou
@@ -28723,7 +28723,7 @@ locators	n+m.localisateurs
 croquet	n+m.croquet
 vacate	v.quitter@v.évacuer
 phytoplankton	n+m.phytoplancton
-neath	prp.sous
+neath	prep.sous
 soundness	n+f.solidité@n+f.validité
 casseroles	n+f.casseroles@n+f.cocotte
 generational	a.générationnel
@@ -29010,7 +29010,7 @@ schooner	n+m.goélette
 analgesic	n+m.analgésique@a.analgésique
 dignified	a.digne@v.ennobli
 numbness	n+f.engourdissement
-geez	intj.bon sang@intj.oh là là
+geez	int.bon sang@int.oh là là
 crocheted	v.crocheté@a.au crochet
 machinist	n+m.machiniste
 anima	n+f.anima
@@ -29131,7 +29131,7 @@ resubmit	v.resoumettre
 congratulated	v.félicité
 yunnan	n+m.yunnan
 couriers	n+m.coursiers@n+m.courriers
-rah	intj.hourra
+rah	int.hourra
 saggy	a.affaissé@a.tombant
 unwelcome	a.importun@a.indésirable
 subtypes	n+m.sous-types
@@ -29349,7 +29349,7 @@ pyruvate	n+m.pyruvate
 loggers	n+m.bûcherons@n+m.enregistreurs
 steeped	v.imprégné@a.trempé
 kissinger	n+m.kissinger
-whew	intj.ouf@intj.pfiou
+whew	int.ouf@int.pfiou
 orchestrated	v.orchestré@a.orchestré
 gripe	v.se plaindre@n+f.plainte
 summa	n+f.summa
@@ -29775,7 +29775,7 @@ vesting	v.acquérant@n+f.acquisition
 misspelled	v.mal orthographié@a.mal orthographié
 headcount	n+m.effectif@n+m.décompte
 panache	n+m.panache
-hallelujah	intj.alléluia@n+m.alléluia
+hallelujah	int.alléluia@n+m.alléluia
 morn	n+m.matin
 cayuga	n+m.cayuga
 nob	n+m.snob@n+f.tête
@@ -29913,7 +29913,7 @@ hel	n+f.hel
 anarchists	n+m.anarchistes
 ponderosa	n+m.ponderosa
 transitioning	v.transition@v.passant à
-whoops	intj.oups
+whoops	int.oups
 perilous	a.périlleux
 devonshire	n+m.devonshire
 tanto	ad.tanto
@@ -30043,7 +30043,7 @@ capitalizing	v.capitalisant@v.tirant profit
 scribes	n+m.scribes
 monologue	n+m.monologue@v.monologuer
 browsed	v.parcouru@v.navigué
-vive	intj.vive
+vive	int.vive
 bundling	v.regroupant@n+m.groupage
 mencken	n+m.mencken
 dagenham	n+m.dagenham
@@ -30300,7 +30300,7 @@ populist	a.populiste@n+m.populiste
 traceable	a.traçable
 renfrew	n+m.renfrew
 chautauqua	n+m.chautauqua
-voila	intj.voilà
+voila	int.voilà
 mnemonic	a.mnémonique@n+m.moyen mnémotechnique
 interviewers	n+m.intervieweurs
 invariance	n+f.invariance
@@ -30707,7 +30707,7 @@ remus	n+m.rémus
 coals	n+m.charbons
 succulent	a.succulent@n+f.plante grasse
 heartily	ad.chaleureusement@ad.copieusement
-hic	intj.hic
+hic	int.hic
 gisborne	n+m.gisborne
 yellowish	a.jaunâtre
 grafts	n+f.greffes@v.greffe
@@ -30951,7 +30951,7 @@ gratifying	v.gratifiant@a.gratifiant
 bums	n+m.clochards@n+f.fesses
 undersea	a.sous-marin@ad.sous la mer
 delirious	a.délirant
-excepting	prp.sauf@v.exceptant
+excepting	prep.sauf@v.exceptant
 unlawfully	ad.illégalement
 vanadium	n+m.vanadium
 wilkerson	n+m.wilkerson
@@ -31000,7 +31000,7 @@ secretory	a.sécrétoire
 encompassed	v.englobé@a.compris
 reassessment	n+f.réévaluation
 broil	v.griller@n+f.bagarre
-hurrah	intj.hourra@n+m.hourra
+hurrah	int.hourra@n+m.hourra
 chillers	n+m.refroidisseurs@n+m.films d'horreur
 elbert	n+m.elbert
 modestly	ad.modestement
@@ -31066,7 +31066,7 @@ eccles	n+m.eccles
 magdalene	n+f.madeleine
 spatula	n+f.spatule
 featurette	n+f.mini-documentaire
-gotcha	intj.je t'ai eu@n+m.piège
+gotcha	int.je t'ai eu@n+m.piège
 drifter	n+m.vagabond@n+m.dériveur
 veer	v.virer@v.dévier
 netted	v.capturé@a.filet
@@ -31271,7 +31271,7 @@ claudius	n+m.claudius
 meatballs	n+f.boulettes de viande
 underrepresented	a.sous-représenté
 tremors	n+m.tremblements@n+m.secousses
-apropos	ad.à propos@prp.à propos de
+apropos	ad.à propos@prep.à propos de
 tightness	n+f.étanchéité@n+f.tension
 pitiful	a.pitoyable
 concatenation	n+f.concaténation
@@ -31803,7 +31803,7 @@ wholeheartedly	ad.de tout cœur@ad.sans réserve
 shrugs	v.hausse les épaules@n+m.haussements d'épaules
 polyps	n+m.polypes
 negros	n+m.noirs
-avast	intj.halte
+avast	int.halte
 inelastic	a.inélastique
 puebla	n+m.puebla
 traffickers	n+m.trafiquants
@@ -31831,7 +31831,7 @@ yesterdays	n+m.hiers
 alibi	n+m.alibi
 angolan	a.angolais@n+m.angolais
 relayed	v.relayé@v.retransmis
-ahoy	intj.ohé
+ahoy	int.ohé
 ulcerative	a.ulcératif
 jellies	n+f.gelées
 postponement	n+m.report@n+m.ajournement
@@ -32021,7 +32021,7 @@ specifier	n+m.spécificateur
 mollie	n+f.mollie
 subsidize	v.subventionner
 conclusively	ad.de façon concluante
-hiya	intj.salut
+hiya	int.salut
 calcareous	a.calcaire
 nappies	n+f.couches
 crippling	v.estropiant@a.paralysant
@@ -32497,7 +32497,7 @@ intangibles	n+m.actifs incorporels
 dumplings	n+m.boulettes
 flak	n+f.flak@n+f.critique
 cubed	v.coupé en dés@a.au cube
-yuck	intj.beurk
+yuck	int.beurk
 upholds	v.maintient@v.soutient
 enlistment	n+m.enrôlement
 inroads	n+f.incursions@n+m.progrès
@@ -32569,7 +32569,7 @@ mistrust	v.se méfier de@n+f.méfiance
 overcomes	v.surmonte
 lordship	n+f.seigneurie
 weill	n+m.weill
-jeez	intj.bon sang
+jeez	int.bon sang
 athabasca	n+m.athabasca
 redd	n+m.redd
 phoning	v.téléphonant
@@ -33247,7 +33247,7 @@ quantifiable	a.quantifiable
 pion	n+m.pion
 sliver	n+m.éclat@v.éclater
 leptin	n+f.leptine
-bummer	n+m.coup dur@intj.dommage
+bummer	n+m.coup dur@int.dommage
 isometric	a.isométrique
 retraction	n+f.rétractation
 orinoco	n+m.orénoque
@@ -33634,7 +33634,7 @@ idem	ad.idem
 auk	n+m.pingouin
 oocytes	n+m.ovocytes
 armadillo	n+m.tatou
-hark	v.écouter@intj.écoutez
+hark	v.écouter@int.écoutez
 filers	n+m.déclarants
 perturbed	v.perturbé@a.perturbé
 retrievers	n+m.retrievers
@@ -34034,7 +34034,7 @@ klee	n+m.Klee
 wizardry	n+f.sorcellerie
 nonce	n+m.nonce
 fervent	a.fervent
-lemme	intj.laisse-moi
+lemme	int.laisse-moi
 headrest	n+m.appui-tête
 elevating	v.élever@a.édifiant
 chaperone	n+m.chaperon@v.chaperonner
@@ -35360,7 +35360,7 @@ glace	a.glacé
 negated	v.annulé@a.nié
 musicianship	n+f.talent musical
 puns	n+m.jeux de mots
-adios	intj.adios
+adios	int.adios
 purview	n+m.domaine
 hilt	n+f.garde
 dyfed	n+m.Dyfed
@@ -35721,7 +35721,7 @@ huddle	v.se blottir@n+m.rassemblement
 numismatic	a.numismatique
 avoidable	a.évitable
 adenoma	n+m.adénome
-aah	intj.aah
+aah	int.aah
 beaconsfield	n+m.Beaconsfield
 lakhs	n+m.lakhs
 flammability	n+f.inflammabilité
@@ -36148,7 +36148,7 @@ consecration	n+f.consécration
 disaggregated	v.désagrégé@a.désagrégé
 forbearance	n+f.patience
 chromatographic	a.chromatographique
-golly	intj.mince
+golly	int.mince
 congratulates	v.félicite
 reinstalled	v.réinstallé@a.réinstallé
 plastered	v.plâtré@a.couvert
@@ -36262,7 +36262,7 @@ perdition	n+f.perdition
 wintering	v.hiverner@n+m.hivernage
 topple	v.renverser
 hardiness	n+f.rusticité
-phew	intj.ouf
+phew	int.ouf
 chickasaw	n+m.Chickasaw
 pungent	a.âcre
 discontinuance	n+f.cessation
@@ -36417,7 +36417,7 @@ blevins	n+m.Blevins
 damning	a.accablant@v.condamnant
 cardholders	n+m.titulaires de carte
 matrimony	n+m.mariage
-humbug	n+f.imposture@intj.balivernes
+humbug	n+f.imposture@int.balivernes
 signalled	v.signalé@a.signalé
 hyperbaric	a.hyperbare
 granulated	a.granulé@v.granulé
@@ -36658,7 +36658,7 @@ deducting	v.déduire@n+f.déduction
 caretakers	n+m.gardiens
 amazes	v.émerveille
 undamaged	a.intact
-fie	intj.fi
+fie	int.fi
 brimming	v.déborder@a.débordant
 consolidator	n+m.consolidateur
 ridiculed	v.ridiculisé@a.ridiculisé
@@ -36712,14 +36712,14 @@ snowmen	n+m.bonhommes de neige
 luminescence	n+f.luminescence
 landscapers	n+m.paysagistes
 llano	n+m.llano
-neh	intj.hein
+neh	int.hein
 interdepartmental	a.interdépartemental
 nita	n+f.Nita
 unjustly	ad.injustement
 neutered	v.castré@a.neutre
 sinbad	n+m.Sinbad
 masterworks	n+f.œuvres maîtresses
-yuk	intj.beurk
+yuk	int.beurk
 rhizome	n+m.rhizome
 leprechaun	n+m.lutin
 fokker	n+m.Fokker
@@ -37128,7 +37128,7 @@ emitters	n+m.émetteurs
 staked	v.jalonné@a.misé
 sandwiched	v.pris en sandwich@a.coincé
 rigidly	ad.rigidement
-oyez	intj.oyez
+oyez	int.oyez
 simile	n+f.comparaison
 phalanx	n+f.phalange
 hindering	v.entraver@a.entravant
@@ -37156,7 +37156,7 @@ meander	v.serpenter@n+m.méandre
 leanings	n+f.penchants
 groans	v.gémit@n+m.gémissements
 canker	n+m.chancre
-poof	intj.pouf
+poof	int.pouf
 keener	a.plus vif
 meaningfully	ad.de manière significative
 audios	n+m.audios
@@ -37680,7 +37680,7 @@ destruct	v.détruire
 beautification	n+f.embellissement
 fiscally	ad.fiscalement
 galls	v.irrite@n+f.galles
-yippee	intj.youpi
+yippee	int.youpi
 ammon	n+m.Ammon
 imitated	v.imité@a.imité
 inflicting	v.infliger@a.infligeant
@@ -38663,7 +38663,7 @@ worthiness	n+f.mérite
 lazily	ad.paresseusement
 cattery	n+f.chatterie
 rona	n+f.Rona
-jeepers	intj.mince
+jeepers	int.mince
 foliar	a.foliaire
 carnarvon	n+m.Carnarvon
 troposphere	n+f.troposphère
@@ -38757,7 +38757,7 @@ skirting	v.contourner@n+f.plinthe
 diapering	v.langer@n+m.change
 beatriz	n+f.Beatriz
 gouging	v.entailler@n+m.extorsion
-adieu	n+m.adieu@intj.adieu
+adieu	n+m.adieu@int.adieu
 gatherer	n+m.cueilleur
 slackers	n+m.tire-au-flanc
 kindling	v.allumer@n+m.petit bois
@@ -39270,7 +39270,7 @@ shinto	n+m.shintoïsme@a.shinto
 attentions	n+f.attentions
 abductions	n+f.enlèvements
 oses	n+m.oses
-gawd	intj.mon Dieu
+gawd	int.mon Dieu
 diffusers	n+m.diffuseurs
 inhaling	v.inhaler@n+f.inhalation
 poon	n+m.poon
@@ -39516,7 +39516,7 @@ violoncello	n+m.violoncelle
 guayaquil	n+f.Guayaquil
 writs	n+m.mandats
 omnipresent	a.omniprésent
-gesundheit	intj.à vos souhaits
+gesundheit	int.à vos souhaits
 inconsequential	a.insignifiant
 insensitivity	n+f.insensibilité
 deviants	n+m.déviants
@@ -39576,7 +39576,7 @@ holomorphic	a.holomorphe
 bandicoot	n+m.bandicoot
 persimmon	n+m.kaki
 attributions	n+f.attributions
-shh	intj.chut
+shh	int.chut
 bosons	n+m.bosons
 cloaked	v.masqué@a.masqué
 decrypted	v.déchiffré@a.déchiffré
@@ -40253,7 +40253,7 @@ phrased	v.formulé@a.formulé
 binaural	a.binaural
 puddles	n+f.flaques
 ufa	n+f.Oufa
-yeahs	intj.ouais
+yeahs	int.ouais
 ephemeris	n+f.éphéméride
 refurbish	v.rénover
 latching	v.verrouiller@n+m.verrouillage
@@ -40591,7 +40591,7 @@ agrippa	n+m.Agrippa
 lioness	n+f.lionne
 disingenuous	a.malhonnête
 appendages	n+m.appendices
-shoo	v.chasser@intj.ouste
+shoo	v.chasser@int.ouste
 feverish	a.fiévreux
 stairwell	n+f.cage d'escalier
 lorelei	n+f.Lorelei
@@ -40779,7 +40779,7 @@ stabilizes	v.stabilise
 lviv	n+f.Lviv
 alumna	n+f.ancienne élève
 siloam	n+m.Siloam
-oke	intj.d'accord
+oke	int.d'accord
 bandy	v.échanger@a.arqué
 watercourses	n+m.cours d'eau
 deregulated	v.dérégulé@a.dérégulé
@@ -41381,7 +41381,7 @@ unsealed	v.descellé@a.descellé
 podiatric	a.podiatrique
 misinformed	v.mal informé@a.mal informé
 moonrise	n+m.lever de lune
-banzai	intj.banzai
+banzai	int.banzai
 duodenum	n+m.duodénum
 journeyed	v.voyagé@a.voyagé
 creel	n+m.panier à poisson
@@ -41428,7 +41428,7 @@ bilinear	a.bilinéaire
 berra	n+m.Berra
 taille	n+f.taille
 resplendent	a.resplendissant
-whee	intj.youpi
+whee	int.youpi
 insecurities	n+f.insécurités
 thrall	n+m.esclavage
 barked	v.aboyé@a.aboyé

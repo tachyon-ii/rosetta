@@ -355,7 +355,6 @@ image	n+n.Bild@n+n.Image
 department	n+f.Abteilung@n+n.Ministerium
 title	n+m.Titel
 description	n+f.Beschreibung
-non	a.nicht@pref.nicht
 insurance	n+f.Versicherung
 another	pron.ein anderer@a+m.anderer@a+f.andere@a+n.anderes
 why	ad.warum@ad.weshalb
@@ -1274,7 +1273,6 @@ connection	n+f.Verbindung@n+m.Anschluss
 publisher	n+m.Verleger@n+m.Verlag@n+f.Verlegerin
 hall	n+f.Halle@n+m.Saal
 larger	a+m.größerer@a+f.größere@a+n.größeres
-anti	pref.anti@pref.gegen
 networks	n+n.Netzwerke
 earth	n+f.Erde
 parents	n+m.Eltern
@@ -1431,7 +1429,6 @@ trust	n+n.Vertrauen@v.vertrauen
 van	n+m.Lieferwagen@n+m.Van
 contains	v.enthält
 session	n+f.Sitzung@n+f.Session
-multi	pref.multi@a.mehrfach
 photography	n+f.Fotografie
 republic	n+f.Republik
 fees	n+f.Gebühren
@@ -1651,7 +1648,6 @@ funding	n+f.Finanzierung@v.finanzierend
 devices	n+n.Geräte
 lord	n+m.Herr@n+m.Lord
 grant	n+f.Zuschuss@n+m.Stipendium@v.gewähren
-sub	n+n.U-Boot@n+m.Ersatz@pref.unter
 agree	v.zustimmen@v.einwilligen
 fiction	n+f.Fiktion@n+f.Belletristik
 hear	v.hören
@@ -1943,7 +1939,6 @@ enable	v.ermöglichen@v.aktivieren
 exercise	n+f.Übung@n+m.Sport@v.trainieren
 bug	n+m.Fehler@n+m.Bug@n+f.Wanze
 santa	n+m.Weihnachtsmann@n+f.Santa
-mid	a.mittel@pref.mitte
 guarantee	n+f.Garantie@v.garantieren
 leader	n+m.Anführer@n+m.Leiter@n+f.Anführerin
 diamond	n+m.Diamant
@@ -2337,7 +2332,6 @@ dave	n+m.Dave
 massachusetts	n+n.Massachusetts
 diego	n+n.Diego
 hong	n+n.Hong
-vice	n+n.Laster@n+f.Stellvertretung@pref.Vize
 associate	n+m.Partner@n+m.Kollege@v.assoziieren
 truck	n+m.Lastwagen@n+m.LKW
 enlarge	v.vergrößern
@@ -2389,7 +2383,6 @@ faster	ad.schneller@a+m.schnellerer@a+f.schnellere@a+n.schnelleres
 intelligence	n+f.Intelligenz@n+m.Geheimdienst
 dallas	n+n.Dallas
 bought	v.kaufte
-con	n+m.Betrug@pref.gegen
 ups	n+m.UPS@n+f.Höhen und Tiefen
 nations	n+f.Nationen
 route	n+f.Route@n+f.Strecke
@@ -3220,7 +3213,6 @@ contribute	v.beitragen
 lock	n+n.Schloss@n+f.Sperre@v.sperren
 hockey	n+n.Hockey
 storm	n+m.Sturm
-micro	pref.mikro@a.mikro
 colleges	n+n.Colleges@n+f.Hochschulen
 laptops	n+m.Laptops
 mile	n+f.Meile
@@ -3265,7 +3257,6 @@ pan	n+f.Pfanne@v.schwenken
 execution	n+f.Ausführung@n+f.Hinrichtung
 disability	n+f.Behinderung
 increases	n+f.Erhöhungen@v.erhöht
-ultra	pref.ultra@a.ultra
 winner	n+m.Gewinner@n+f.Gewinnerin
 idaho	n+n.Idaho
 contractor	n+m.Auftragnehmer@n+m.Bauunternehmer
@@ -3680,7 +3671,6 @@ unsubscribe	v.abmelden@v.abbestellen
 antique	a.antik@n+f.Antiquität
 labels	n+f.Etiketten@n+n.Labels
 willing	a.bereit@a.willig
-bio	n+f.Biografie@pref.bio
 molecular	a.molekular
 acting	n+n.Schauspielerei@v.handelnd@a.stellvertretend
 heads	n+m.Köpfe@n+f.Leiter@v.leitet
@@ -3758,7 +3748,6 @@ sin	n+f.Sünde@v.sündigen
 berlin	n+n.Berlin
 cute	a+m.süßer@a+f.süße@a+n.süßes@a+m.niedlicher@a+f.niedliche@a+n.niedliches
 organized	a.organisiert@v.organisierte
-para	pref.para@n+m.Absatz
 siemens	n+n.Siemens
 adoption	n+f.Adoption@n+f.Übernahme
 improving	v.verbessernd
@@ -3994,7 +3983,6 @@ blind	a+m.blinder@a+f.blinde@a+n.blindes@n+n.Rollo
 lounge	n+f.Lounge@n+m.Aufenthaltsraum
 mad	a+m.verrückter@a+f.verrückte@a+n.verrücktes@a+m.wütender@a+f.wütende@a+n.wütendes
 algorithm	n+m.Algorithmus
-semi	pref.halb@a.halb
 coins	n+f.Münzen
 andy	n+m.Andy
 gross	a+m.brutto@a.ekelhaft@n+n.Brutto
@@ -4227,7 +4215,6 @@ hist	n+f.Geschichte
 crash	n+m.Absturz@n+m.Crash@v.abstürzen
 lift	n+m.Aufzug@n+m.Lift@v.heben
 desired	a.gewünscht@v.wünschte
-inter	pref.inter@pref.zwischen
 closer	a+m.näherer@a+f.nähere@a+n.näheres@ad.näher
 assumes	v.nimmt an@v.geht davon aus
 heights	n+f.Höhen
@@ -4448,7 +4435,6 @@ sri	n+n.Sri
 screening	n+f.Vorführung@n+f.Überprüfung
 toe	n+m.Zeh
 thumbnail	n+n.Thumbnail@n+n.Vorschaubild
-trans	pref.trans@a.trans
 jonathan	n+m.Jonathan
 whenever	conj.wann immer@conj.jedes Mal wenn
 nova	n+f.Nova
@@ -41998,3 +41984,17 @@ eloy	n+m.Eloy
 henchmen	n+m.Handlanger@n+m.Scherge
 cuddling	v.kuschelnd@n+n.Kuscheln
 attenuators	n+m.Dämpfungsglied@n+m.Abschwächer
+non	a.nicht@part.nicht
+anti	part.anti@part.gegen
+multi	part.multi@a.mehrfach
+sub	n+n.U-Boot@n+m.Ersatz@part.unter
+mid	a.mittel@part.mitte
+vice	n+n.Laster@n+f.Stellvertretung@part.Vize
+con	n+m.Betrug@part.gegen
+micro	part.mikro@a.mikro
+ultra	part.ultra@a.ultra
+bio	n+f.Biografie@part.bio
+para	part.para@n+m.Absatz
+semi	part.halb@a.halb
+inter	part.inter@part.zwischen
+trans	part.trans@a.trans

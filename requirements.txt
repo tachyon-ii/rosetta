@@ -4,6 +4,9 @@
 # Core markdown parsing
 markdown-it-py>=3.0.0
 
+# Core xxh3
+xxhash>=3.0.0
+
 # Optional: Enhanced markdown features
 mdit-py-plugins>=0.4.0  # Tables, footnotes, etc.
 

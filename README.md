@@ -130,19 +130,27 @@ water   n.вода_f@vt.поливать
 
 **Part-of-Speech tags:**
 
-| Dictionary | UDPipe | Meaning              |
-|------------|--------|----------------------|
-| n.         | NOUN   | noun                 |
-| v.         | VERB   | verb (general)       |
-| vt.        | VERB   | transitive verb      |
-| vi.        | VERB   | intransitive verb    |
-| a.         | ADJ    | adjective            |
-| ad.        | ADV    | adverb               |
-| art.       | DET    | article              |
-| prep.      | ADP    | preposition          |
-| pron.      | PRON   | pronoun              |
-| conj.      | CCONJ  | conjunction          |
-| int.       | INTJ   | interjection         |
+| Dictionary | UDPipe | Meaning                      | Notes                           |
+|------------|--------|------------------------------|----------------------------------|
+| n.         | NOUN   | noun (common)                |                                  |
+| n.         | PROPN  | proper noun                  | Both map to n. in dictionary     |
+| v.         | VERB   | verb (general)               |                                  |
+| vt.        | VERB   | transitive verb              | Subtype of VERB                  |
+| vi.        | VERB   | intransitive verb            | Subtype of VERB                  |
+| v.         | AUX    | auxiliary verb               | Maps to v. (helper verbs)        |
+| a.         | ADJ    | adjective                    |                                  |
+| ad.        | ADV    | adverb                       |                                  |
+| art.       | DET    | article/determiner           |                                  |
+| prep.      | ADP    | adposition (prep/postpos)    |                                  |
+| pron.      | PRON   | pronoun                      |                                  |
+| conj.      | CCONJ  | coordinating conjunction     | "and", "but", "or"               |
+| conj.      | SCONJ  | subordinating conjunction    | "because", "if", "that"          |
+| int.       | INTJ   | interjection                 |                                  |
+| num.       | NUM    | numeral                      | New tag needed                   |
+| part.      | PART   | particle                     | New tag needed                   |
+| sym.       | SYM    | symbol                       | New tag needed (optional)        |
+| punc.      | PUNCT  | punctuation                  | New tag needed (optional)        |
+| x.         | X      | other/foreign                | New tag needed (optional)        |
 
 ## Repository Structure
 ```

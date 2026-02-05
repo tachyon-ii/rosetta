@@ -36006,7 +36006,7 @@ darkening	v.अंधेरा होना@n+m.कालापन
 golds	n+m.सोने के सिक्के
 depressions	n+f.अवसाद@n+m.गड्ढे
 ranching	n+m.पशुपालन
-toasting	v.भूनना@n+म.टोस्ट करना
+toasting	v.भूनना@n+m.टोस्ट करना
 toothpick	n+m.दांत खोदनी
 exhale	v.सांस छोड़ना
 forwarders	n+m.अग्रेषक
@@ -37242,7 +37242,7 @@ harmonised	v.सामंजस्य किया@a.समन्वित
 laski	n+m.लास्की
 xylene	n+m.ज़ाइलीन
 anticipatory	a.प्रत्याशित@a.पूर्वानुमानी
-impersonation	n+f.नकल@n+म.रूप धारण
+impersonation	n+f.नकल@n+m.रूप धारण
 assignable	a.आवंटन योग्य
 interfacial	a.अंतरापृष्ठीय
 girder	n+m.गर्डर@n+f.धरन
@@ -37501,7 +37501,7 @@ bluefish	n+m.ब्लूफिश
 bub	n+m.भाई@n+m.दोस्त
 attuned	a.समायोजित@v.तालमेल बिठाया
 herons	n+m.बगुले
-raiding	v.छापा मारना@n+म.छापामारी
+raiding	v.छापा मारना@n+m.छापामारी
 deft	a.निपुण@a.चतुर
 banger	n+m.सॉसेज@n+f.पुरानी कार
 kwanza	n+f.क्वांज़ा
@@ -37559,7 +37559,7 @@ boudoir	n+m.महिला का कमरा
 affinities	n+f.आत्मीयता
 aquino	n+m.एक्विनो
 repellents	n+m.विकर्षक
-glades	n+f.खुली जगह@n+म.घाटी
+glades	n+f.खुली जगह@n+m.घाटी
 daman	n+m.दमन
 crutch	n+f.बैसाखी
 playbill	n+m.नाटक का विज्ञापन

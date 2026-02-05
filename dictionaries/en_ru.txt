@@ -12078,7 +12078,7 @@ changer	n+m.преобразователь@n+m.меняла
 sergeant	n+m.сержант
 melt	vi.таять@vt.плавить@n+m.расплав
 syrian	a.сирийский@n+m.сириец
-hyper	a.гиперактивный@pref.сверх
+hyper	a.гиперактивный@part.сверх
 ned	n+m.Нед
 cypress	n+m.кипарис
 courtney	n+f.Кортни
@@ -12551,7 +12551,7 @@ swinger	n+m.свингер
 broadly	ad.широко@ad.в целом
 ethereal	a.эфирный@a.воздушный
 crossroads	n+m.перекрёсток@n+n.распутье
-aero	a.авиа@pref.аэро
+aero	a.авиа@part.аэро
 constructing	v.строя@v.конструируя
 smoothly	ad.гладко@ad.плавно
 parsons	n+m.Парсонс
@@ -12872,7 +12872,7 @@ griffith	n+m.Гриффит
 investigative	a.следственный@a.исследовательский
 bylaws	n+m.подзаконные акты@n+m.уставы
 erection	n+f.эрекция@n+n.возведение
-quasi	a.квази@pref.почти
+quasi	a.квази@part.почти
 lao	n+m.лаосец@a.лаосский
 energetic	a.энергичный
 disturbance	n+n.нарушение@n+f.помеха
@@ -12883,7 +12883,7 @@ exile	n+n.изгнание@n+m.изгнанник@vt.изгонять
 breastfeeding	n+n.грудное вскармливание
 reside	vi.проживать@vi.пребывать
 mccartney	n+m.Маккартни
-anglo	pref.англо@a.англоязычный
+anglo	part.англо@a.англоязычный
 cashier	n+m.кассир
 kathryn	n+f.Кэтрин
 jaw	n+f.челюсть
@@ -19849,7 +19849,7 @@ wellesley	n+m.Уэлсли
 dreadful	a.ужасный@a.страшный
 smokey	a.дымчатый@n+m.Смоки
 metaphysics	n+f.метафизика
-drifting	n+м.дрифтинг@v.дрейфуя
+drifting	n+m.дрифтинг@v.дрейфуя
 ritter	n+m.Риттер
 vacuums	n+m.пылесосы@n+m.вакуумы
 attends	vt.посещает@vt.присутствует

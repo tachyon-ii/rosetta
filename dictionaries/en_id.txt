@@ -13792,12 +13792,12 @@ leonardo	n.Leonardo
 sucked	v.mengisap
 scissors	n.gunting
 broncos	n.Broncos
+jorge	n.Jorge
 cooks	v.memasak@n.koki
 sharply	ad.dengan tajam
 granada	n.Granada
 laurence	n.Laurence
 rebellion	n.pemberontakan
-rainy	a.hujan
 rainy	a.hujan
 tho	conj.meskipun
 regent	n.bupati
@@ -15797,8 +15797,8 @@ cursed	a.terkutuk
 efficiencies	n.efisiensi
 blowout	n.ledakan
 youths	n.pemuda
-migrant	n.migran
 massey	n.Massey
+migrants	n.migran
 tumble	v.jatuh@n.jatuhan
 oversee	v.mengawasi
 thresholds	n.ambang batas
@@ -17094,10 +17094,10 @@ frey	n.Frey
 loyola	n.Loyola
 sinister	a.jahat
 burr	n.duri
+plunge	v.terjun@n.terjunan
 arteries	n.arteri
 chaser	n.pengejar
 formations	n.formasi
-vantage	n.keunggulan
 vantage	n.keunggulan
 texans	n.orang Texas
 diffuse	a.menyebar@v.menyebarkan

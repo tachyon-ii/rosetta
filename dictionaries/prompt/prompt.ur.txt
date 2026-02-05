@@ -51,25 +51,27 @@ No sentence-level rewrite is performed.
 
 ## Part-of-Speech Tags
 
-| Dict tag | UDPipe | Meaning                                |
-| -------- | ------ | -------------------------------------- |
-| n.       | NOUN   | noun (gender unknown / not applicable) |
-| n+f.     | NOUN   | feminine noun                          |
-| n+m.     | NOUN   | masculine noun                         |
-| v.       | VERB   | verb (general)                         |
-| vt.      | VERB   | transitive verb                        |
-| vi.      | VERB   | intransitive verb                      |
-| a.       | ADJ    | adjective                              |
-| ad.      | ADV    | adverb                                 |
-| art.     | DET    | article (ungendered selector)          |
-| art+f.   | DET    | article, feminine realization          |
-| art+m.   | DET    | article, masculine realization         |
-| pron.    | PRON   | pronoun (ungendered)                   |
-| pron+f.  | PRON   | feminine pronoun                       |
-| pron+m.  | PRON   | masculine pronoun                      |
-| prep.    | ADP    | preposition                            |
-| conj.    | CCONJ  | conjunction                            |
-| int.     | INTJ   | interjection                           |
+| Dictionary | UDPipe | Meaning                      | 
+|------------|--------|------------------------------|
+| n.         | NOUN   | noun (common)                |
+| n.         | PROPN  | proper noun                  |
+| v.         | VERB   | verb (general)               |
+| vt.        | VERB   | transitive verb              | 
+| vi.        | VERB   | intransitive verb            |
+| v.         | AUX    | auxiliary verb               |
+| a.         | ADJ    | adjective                    |
+| ad.        | ADV    | adverb                       |
+| art.       | DET    | article/determiner           |
+| prep.      | ADP    | adposition (prep/postpos)    |
+| pron.      | PRON   | pronoun                      | 
+| conj.      | CCONJ  | coordinating conjunction     |
+| conj.      | SCONJ  | subordinating conjunction    |
+| int.       | INTJ   | interjection                 |
+| num.       | NUM    | numeral                      |
+| part.      | PART   | particle                     |
+| sym.       | SYM    | symbol                       |
+| punc.      | PUNCT  | punctuation                  |
+| x.         | X      | other/foreign                |
 
 ---
 

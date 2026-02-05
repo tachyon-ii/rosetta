@@ -1,0 +1,210 @@
+# Chinese Translation Continuation Task
+
+You are continuing translation work on `dictionary/en_zh.txt` — an English—Chinese dictionary file.
+
+Chinese does **not** have grammatical gender for nouns. This dictionary uses simplified POS tags without gender markers.
+
+---
+
+## Your Task
+
+1. **Find the first untranslated word** in the file
+   (a line containing only `word` with no tab or translation)
+2. **Translate in batches of 100 words** at a time
+3. **Continue translating without stopping** until context limits are reached
+4. **Format strictly** using the dictionary format defined below
+
+---
+
+## Dictionary Format
+
+**File type:** TSV (Tab-Separated Values)
+**Encoding:** UTF-8
+
+**Structure:**
+```
+word<TAB>pos.translation@pos.translation
+```
+
+---
+
+## Normalization Rules
+
+* All headwords lowercase
+* Hyphens removed (`any-thing → anything`)
+* No commas used to separate meanings
+* All distinct realizations separated with `@`
+* No articles embedded in noun translations
+* Chinese characters must be properly encoded
+* First occurrence of a headword wins
+
+---
+
+## Core Principle
+
+> Chinese does not have grammatical gender.
+> Translations use simple POS tags without gender markers.
+
+No sentence-level rewrite is performed.
+
+---
+
+## Part-of-Speech Tags
+
+| Dictionary | UDPipe | Meaning                      | 
+|------------|--------|------------------------------|
+| n.         | NOUN   | noun (common)                |
+| n.         | PROPN  | proper noun                  |
+| v.         | VERB   | verb (general)               |
+| vt.        | VERB   | transitive verb              | 
+| vi.        | VERB   | intransitive verb            |
+| v.         | AUX    | auxiliary verb               |
+| a.         | ADJ    | adjective                    |
+| ad.        | ADV    | adverb                       |
+| art.       | DET    | article/determiner           |
+| prep.      | ADP    | adposition (prep/postpos)    |
+| pron.      | PRON   | pronoun                      | 
+| conj.      | CCONJ  | coordinating conjunction     |
+| conj.      | SCONJ  | subordinating conjunction    |
+| int.       | INTJ   | interjection                 |
+| num.       | NUM    | numeral                      |
+| part.      | PART   | particle                     |
+| sym.       | SYM    | symbol                       |
+| punc.      | PUNCT  | punctuation                  |
+| x.         | X      | other/foreign                |
+
+---
+
+## Meaning & POS Separation Rules (Authoritative)
+
+* `@` separates **all distinct realizations**
+  * different POS
+  * different meanings (even within same POS)
+* `,` is **not used**
+
+### Examples
+
+Single realization:
+```
+water	n.水
+```
+
+Multiple meanings, same POS:
+```
+business	n.商业@n.公司
+```
+
+Different POS:
+```
+control	n.控制@v.控制
+```
+
+Multiple meanings, same POS:
+```
+bank	n.银行@n.河岸
+```
+
+---
+
+## Chinese Language Notes
+
+* **No grammatical gender** - nouns, pronouns, and adjectives do not inflect for gender
+* **No articles** - Chinese does not use articles like "the" or "a/an"
+* **Measure words** - Do not include measure words (个, 只, 本, etc.) in noun translations
+* **Simplified characters** - Use simplified Chinese characters (简体字)
+* **Character encoding** - Must be properly preserved in UTF-8
+* **Compound words** - Use standard forms (e.g., "商业" not "商 业")
+
+---
+
+## Common Words
+
+### Articles (Chinese has none)
+```
+the	art.—
+a	art.—
+an	art.—
+```
+
+### Pronouns
+```
+it	pron.它
+they	pron.他们@pron.她们@pron.它们
+he	pron.他
+she	pron.她
+I	pron.我
+you	pron.你@pron.您
+we	pron.我们
+```
+
+### Basic Words
+```
+of	prep.的
+and	conj.和@conj.与
+to	prep.到@prep.向
+in	prep.在@prep.里
+```
+
+### Adjectives (no gender agreement)
+```
+new	a.新的@a.新
+good	a.好的@a.好
+big	a.大的@a.大
+small	a.小的@a.小
+```
+
+---
+
+## Examples of Correct Chinese Entries
+```
+the	art.—
+of	prep.的
+and	conj.和
+a	art.—
+water	n.水
+book	n.书
+house	n.房子
+business	n.商业@n.公司
+light	n.光@n.灯
+run	v.跑@n.跑步
+go	v.去
+come	v.来
+good	a.好的@a.好
+bad	a.坏的@a.差
+```
+
+---
+
+## Workflow
+
+1. Locate the **first untranslated word**
+2. Translate the next **100 words**
+3. Edit the file **in place**
+4. Repeat continuously
+
+---
+
+## CRITICAL RULES
+
+* ✗ Do NOT ask for permission to continue
+* ✗ Do NOT summarize progress
+* ✗ Do NOT append entries
+* ✗ Do NOT use commas to separate meanings
+* ✗ Do NOT add gender markers (Chinese has none)
+* ✗ Do NOT include measure words in noun translations
+* ✓ ONLY stop when output is truncated by context limits
+
+---
+
+## Goal
+
+Translate **as many entries as possible** with:
+
+* correct POS
+* natural Chinese forms
+* proper character encoding
+* unambiguous realizations
+
+---
+
+**Begin by identifying the first untranslated word, then translate the next 100 entries.**
