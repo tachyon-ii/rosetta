@@ -325,15 +325,15 @@ class QdrantDeduplicator:
                             ]
                         )
 
-                        # Simple search (guaranteed to work!)
-                        results = self.client.search(
+                        # Use query_points (correct API for this version!)
+                        results = self.client.query_points(
                             collection_name=self.collection_name,
-                            query_vector=vector,
+                            query=vector,
                             limit=limit_per_entry,
                             score_threshold=self.similarity_threshold,
                             query_filter=pos_filter,
                             with_payload=True
-                        )
+                        ).points
 
                         # Collect duplicates (excluding self)
                         similar = []
