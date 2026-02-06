@@ -2,3 +2,8 @@
 *.swp
 __pycache__
 venv
+
+# Large files and directories (>100MB)
+qdrant_storage/
+qdrant_data/
+dictionaries/wiktionary/wiktionary.hashed.txt
