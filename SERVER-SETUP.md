@@ -19,11 +19,8 @@ dnf install -y python3 python3-pip python3-devel
 ```bash
 cd /var/www/rosetta
 
-# Create venv
-python3 -m venv venv
-
 # Activate
-source venv/bin/activate
+source /data2000/venvs/rosetta_env/bin/activate
 
 # Install dependencies
 pip install --upgrade pip

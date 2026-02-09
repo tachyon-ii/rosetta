@@ -1,0 +1,37 @@
+{
+  "timestamp": "2026-02-09T14:15:22.202537",
+  "original_file": "dictionaries/wiktionary/wiktionary.hashed.txt",
+  "backup_file": "/data2000/deduplication_applied/backups/wiktionary.hashed.backup_20260209_141520.txt",
+  "deduplicated_file": "/data2000/deduplication_applied/wiktionary.hashed.deduplicated.txt",
+  "mapping_file": "/data2000/auto_review_results_clean_mapping.json",
+  "statistics": {
+    "total_entries": 1671175,
+    "kept_entries": 1659189,
+    "removed_entries": 11986,
+    "reduction_pct": 0.717219920116086
+  },
+  "removed_by_pos": {
+    "suffix": 12,
+    "verb": 2208,
+    "noun": 6769,
+    "contraction": 50,
+    "adj": 536,
+    "character": 4,
+    "adv": 65,
+    "prep": 12,
+    "name": 2246,
+    "prefix": 22,
+    "article": 1,
+    "prep_phrase": 5,
+    "num": 2,
+    "conj": 4,
+    "pron": 15,
+    "phrase": 16,
+    "det": 7,
+    "intj": 8,
+    "particle": 1,
+    "combining_form": 1,
+    "symbol": 1,
+    "proverb": 1
+  }
+}

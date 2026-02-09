@@ -6,4 +6,4 @@ venv
 # Large files and directories (>100MB)
 qdrant_storage/
 qdrant_data/
-dictionaries/wiktionary/wiktionary.hashed.txt
+dictionaries/wiktionary/wiktionary.hashed.txtJAMES_EMAIL*.txt
